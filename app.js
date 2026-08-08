@@ -34,7 +34,7 @@ async function getNews(category) {
         id: `biochem-${article.source}-${article.id || index}`,
         category: 'biochem',
         title: article.title || '生化学の新着研究',
-        link: `https://translate.google.com/translate?sl=en&tl=ja&u=${encodeURIComponent(originalUrl)}`,
+        link: originalUrl,
         source: article.journalTitle || feedInfo.source,
         date: article.firstPublicationDate || ''
       };

@@ -1,8 +1,9 @@
 const FEEDS = {
   current: { url: 'https://www3.nhk.or.jp/rss/news/cat0.xml', source: 'NHK NEWS WEB', direct: true },
-  biochem: { url: 'https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(TITLE:biochemistry%20OR%20TITLE:biochemical%20OR%20TITLE:%22molecular%20biology%22)&format=json&pageSize=4&sort_date:y', source: 'Europe PMC', type: 'json' }
+  biochem: { url: 'https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(TITLE:biochemistry%20OR%20TITLE:biochemical%20OR%20TITLE:%22molecular%20biology%22)%20AND%20OPEN_ACCESS:Y&format=json&pageSize=8&sort_date:y', source: 'Europe PMC', type: 'json' }
 };
 const CACHE_MAX_AGE = 30 * 60 * 1000;
+const TRANSLATION_CACHE_KEY = 'morning-eight-translations';
 const state = { articles: [], filter: 'all', saved: new Set(JSON.parse(localStorage.getItem('saved-articles') || '[]')) };
 const feed = document.querySelector('#feed');
 const statusLine = document.querySelector('#status');
@@ -15,7 +16,7 @@ function parseFeed(xmlText, category) {
   return [...doc.querySelectorAll('item')].slice(0, 4).map((item, index) => ({
     id: `${category}-${item.querySelector('guid, link')?.textContent || index}`,
     category, title: item.querySelector('title')?.textContent?.replace(/\s+-\s+[^-]+$/, '') || '記事タイトル',
-    link: item.querySelector('link')?.textContent || '#',
+    link: (item.querySelector('link')?.textContent || '#').replace(/^http:/, 'https:'),
     source: item.querySelector('source')?.textContent || FEEDS[category].source,
     date: item.querySelector('pubDate')?.textContent || ''
   }));
@@ -26,7 +27,7 @@ async function getNews(category) {
   if (!response.ok) throw new Error('ニュースを取得できませんでした');
   if (feedInfo.type === 'json') {
     const data = await response.json();
-    return (data.resultList?.result || []).slice(0, 4).map((article, index) => ({
+    return (data.resultList?.result || []).filter(article => article.isOpenAccess === 'Y').slice(0, 4).map((article, index) => ({
       id: `biochem-${article.source}-${article.id || index}`,
       category: 'biochem',
       title: article.title || '生化学の新着研究',
@@ -37,6 +38,27 @@ async function getNews(category) {
   }
   const articles = parseFeed(await response.text(), category);
   return articles;
+}
+function isJapanese(text) { return /[\u3040-\u30ff\u3400-\u9fff]/.test(text); }
+function readTranslationCache() {
+  try { return JSON.parse(localStorage.getItem(TRANSLATION_CACHE_KEY) || '{}'); } catch { return {}; }
+}
+async function translateTitle(title, translations) {
+  if (isJapanese(title) || translations[title]) return translations[title] || title;
+  try {
+    const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(title)}&langpair=en|ja`;
+    const response = await fetch(url);
+    const data = await response.json();
+    const translated = data.responseData?.translatedText;
+    if (translated && translated !== title) { translations[title] = translated; return translated; }
+  } catch { /* 元の見出しを表示して記事は読める状態に保つ */ }
+  return title;
+}
+async function translateArticles(articles) {
+  const translations = readTranslationCache();
+  const translated = await Promise.all(articles.map(async article => ({ ...article, title: await translateTitle(article.title, translations) })));
+  localStorage.setItem(TRANSLATION_CACHE_KEY, JSON.stringify(translations));
+  return translated;
 }
 function readCache() {
   try {
@@ -78,7 +100,13 @@ async function load(force = false) {
   refreshButton.disabled = true; statusLine.classList.remove('error');
   if (cached) { state.articles = cached; statusLine.textContent = '保存済みの記事を表示中…'; render(); }
   else { statusLine.textContent = '最新の記事を集めています…'; }
-  try { state.articles = (await Promise.all([getNews('current'), getNews('biochem')])).flat(); writeCache(state.articles); statusLine.textContent = '更新済み — 各カテゴリ4本'; }
+  try {
+    state.articles = (await Promise.all([getNews('current'), getNews('biochem')])).flat();
+    writeCache(state.articles); render();
+    statusLine.textContent = '日本語訳を準備中…';
+    state.articles = await translateArticles(state.articles);
+    writeCache(state.articles); statusLine.textContent = '更新済み — 各カテゴリ4本';
+  }
   catch { state.articles = fallbackArticles(); statusLine.textContent = '通信できないため、再読み込みで最新記事を取得してください。'; statusLine.classList.add('error'); }
   refreshButton.disabled = false; render();
 }

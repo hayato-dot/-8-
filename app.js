@@ -1,9 +1,9 @@
 const FEEDS = {
-  current: { url: 'https://www3.nhk.or.jp/rss/news/cat0.xml', source: 'NHK NEWS WEB', direct: true },
+  current: { url: './data/current.json', source: 'NHK NEWS WEB', type: 'json' },
   biochem: { url: './data/biochem.json', source: '理化学研究所', type: 'json' }
 };
 const CACHE_MAX_AGE = 30 * 60 * 1000;
-const NEWS_CACHE_KEY = 'morning-eight-news-ja-v4';
+const NEWS_CACHE_KEY = 'morning-eight-news-ja-v5';
 const state = { articles: [], filter: 'all', saved: new Set(JSON.parse(localStorage.getItem('saved-articles') || '[]')) };
 const feed = document.querySelector('#feed');
 const statusLine = document.querySelector('#status');
@@ -40,9 +40,9 @@ function writeCache(articles) {
 }
 function fallbackArticles() {
   return [
-    ['current','世界の重要ニュースを確認する','ニュースの読み込み後に最新記事が表示されます'], ['current','国内の動きを押さえる','ニュースの読み込み後に最新記事が表示されます'], ['current','経済・テクノロジーの話題','ニュースの読み込み後に最新記事が表示されます'], ['current','社会をめぐる最新トピック','ニュースの読み込み後に最新記事が表示されます'],
-    ['biochem','生化学の最新研究','ニュースの読み込み後に最新記事が表示されます'], ['biochem','分子生物学の研究動向','ニュースの読み込み後に最新記事が表示されます'], ['biochem','医療・創薬のニュース','ニュースの読み込み後に最新記事が表示されます'], ['biochem','生命科学の注目トピック','ニュースの読み込み後に最新記事が表示されます']
-  ].map(([category,title,source], i) => ({ id:`fallback-${i}`, category, title, source, link:'https://news.google.com/', date:'' }));
+    ['current','NHK NEWS WEBを開く','NHK NEWS WEB','https://www3.nhk.or.jp/news/'],
+    ['biochem','理化学研究所の研究成果を開く','理化学研究所','https://www.riken.jp/press/']
+  ].map(([category,title,source,link], i) => ({ id:`fallback-${i}`, category, title, source, link, date:'' }));
 }
 function render() {
   const articles = state.articles.filter(a => state.filter === 'all' || a.category === state.filter || (state.filter === 'saved' && state.saved.has(a.id)));

@@ -1,4 +1,4 @@
-const CACHE = 'morning-eight-v1';
+const CACHE = 'morning-eight-v2';
 const ASSETS = ['./', './index.html', './styles.css', './app.js', './manifest.webmanifest'];
 self.addEventListener('install', event => event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS))));
 self.addEventListener('activate', event => event.waitUntil(self.clients.claim()));

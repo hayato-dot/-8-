@@ -1,7 +1,8 @@
 const FEEDS = {
-  current: 'https://news.google.com/rss/search?q=%E6%99%82%E4%BA%8B+when%3A7d&hl=ja&gl=JP&ceid=JP%3Aja',
-  biochem: 'https://news.google.com/rss/search?q=%E7%94%9F%E5%8C%96%E5%AD%A6+OR+%E5%88%86%E5%AD%90%E7%94%9F%E7%89%A9%E5%AD%A6+when%3A14d&hl=ja&gl=JP&ceid=JP%3Aja'
+  current: { url: 'https://www3.nhk.or.jp/rss/news/cat0.xml', source: 'NHK NEWS WEB', direct: true },
+  biochem: { url: 'https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(TITLE:biochemistry%20OR%20TITLE:biochemical%20OR%20TITLE:%22molecular%20biology%22)&format=json&pageSize=4&sort_date:y', source: 'Europe PMC', type: 'json' }
 };
+const CACHE_MAX_AGE = 30 * 60 * 1000;
 const state = { articles: [], filter: 'all', saved: new Set(JSON.parse(localStorage.getItem('saved-articles') || '[]')) };
 const feed = document.querySelector('#feed');
 const statusLine = document.querySelector('#status');
@@ -15,19 +16,36 @@ function parseFeed(xmlText, category) {
     id: `${category}-${item.querySelector('guid, link')?.textContent || index}`,
     category, title: item.querySelector('title')?.textContent?.replace(/\s+-\s+[^-]+$/, '') || '記事タイトル',
     link: item.querySelector('link')?.textContent || '#',
-    source: item.querySelector('source')?.textContent || 'Google ニュース',
+    source: item.querySelector('source')?.textContent || FEEDS[category].source,
     date: item.querySelector('pubDate')?.textContent || ''
   }));
 }
 async function getNews(category) {
-  const cached = sessionStorage.getItem(`news-${category}`);
-  if (cached) return JSON.parse(cached);
-  const proxy = 'https://api.allorigins.win/raw?url=';
-  const response = await fetch(proxy + encodeURIComponent(FEEDS[category]));
+  const feedInfo = FEEDS[category];
+  const response = await fetch(feedInfo.url);
   if (!response.ok) throw new Error('ニュースを取得できませんでした');
+  if (feedInfo.type === 'json') {
+    const data = await response.json();
+    return (data.resultList?.result || []).slice(0, 4).map((article, index) => ({
+      id: `biochem-${article.source}-${article.id || index}`,
+      category: 'biochem',
+      title: article.title || '生化学の新着研究',
+      link: `https://europepmc.org/article/${article.source}/${article.id}`,
+      source: article.journalTitle || feedInfo.source,
+      date: article.firstPublicationDate || article.pubYear || ''
+    }));
+  }
   const articles = parseFeed(await response.text(), category);
-  sessionStorage.setItem(`news-${category}`, JSON.stringify(articles));
   return articles;
+}
+function readCache() {
+  try {
+    const cached = JSON.parse(localStorage.getItem('morning-eight-news') || 'null');
+    return cached && Date.now() - cached.savedAt < CACHE_MAX_AGE ? cached.articles : null;
+  } catch { return null; }
+}
+function writeCache(articles) {
+  localStorage.setItem('morning-eight-news', JSON.stringify({ articles, savedAt: Date.now() }));
 }
 function fallbackArticles() {
   return [
@@ -56,9 +74,11 @@ function render() {
   });
 }
 async function load(force = false) {
-  if (force) { sessionStorage.clear(); }
-  refreshButton.disabled = true; statusLine.classList.remove('error'); statusLine.textContent = '最新の記事を集めています…';
-  try { state.articles = (await Promise.all([getNews('current'), getNews('biochem')])).flat(); statusLine.textContent = '更新済み — 各カテゴリ4本'; }
+  const cached = force ? null : readCache();
+  refreshButton.disabled = true; statusLine.classList.remove('error');
+  if (cached) { state.articles = cached; statusLine.textContent = '保存済みの記事を表示中…'; render(); }
+  else { statusLine.textContent = '最新の記事を集めています…'; }
+  try { state.articles = (await Promise.all([getNews('current'), getNews('biochem')])).flat(); writeCache(state.articles); statusLine.textContent = '更新済み — 各カテゴリ4本'; }
   catch { state.articles = fallbackArticles(); statusLine.textContent = '通信できないため、再読み込みで最新記事を取得してください。'; statusLine.classList.add('error'); }
   refreshButton.disabled = false; render();
 }

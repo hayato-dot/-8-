@@ -1,0 +1,68 @@
+const FEEDS = {
+  current: 'https://news.google.com/rss/search?q=%E6%99%82%E4%BA%8B+when%3A7d&hl=ja&gl=JP&ceid=JP%3Aja',
+  biochem: 'https://news.google.com/rss/search?q=%E7%94%9F%E5%8C%96%E5%AD%A6+OR+%E5%88%86%E5%AD%90%E7%94%9F%E7%89%A9%E5%AD%A6+when%3A14d&hl=ja&gl=JP&ceid=JP%3Aja'
+};
+const state = { articles: [], filter: 'all', saved: new Set(JSON.parse(localStorage.getItem('saved-articles') || '[]')) };
+const feed = document.querySelector('#feed');
+const statusLine = document.querySelector('#status');
+const refreshButton = document.querySelector('#refresh');
+
+document.querySelector('#today').textContent = new Intl.DateTimeFormat('ja-JP', { year:'numeric', month:'long', day:'numeric', weekday:'short' }).format(new Date());
+
+function parseFeed(xmlText, category) {
+  const doc = new DOMParser().parseFromString(xmlText, 'application/xml');
+  return [...doc.querySelectorAll('item')].slice(0, 4).map((item, index) => ({
+    id: `${category}-${item.querySelector('guid, link')?.textContent || index}`,
+    category, title: item.querySelector('title')?.textContent?.replace(/\s+-\s+[^-]+$/, '') || '記事タイトル',
+    link: item.querySelector('link')?.textContent || '#',
+    source: item.querySelector('source')?.textContent || 'Google ニュース',
+    date: item.querySelector('pubDate')?.textContent || ''
+  }));
+}
+async function getNews(category) {
+  const cached = sessionStorage.getItem(`news-${category}`);
+  if (cached) return JSON.parse(cached);
+  const proxy = 'https://api.allorigins.win/raw?url=';
+  const response = await fetch(proxy + encodeURIComponent(FEEDS[category]));
+  if (!response.ok) throw new Error('ニュースを取得できませんでした');
+  const articles = parseFeed(await response.text(), category);
+  sessionStorage.setItem(`news-${category}`, JSON.stringify(articles));
+  return articles;
+}
+function fallbackArticles() {
+  return [
+    ['current','世界の重要ニュースを確認する','ニュースの読み込み後に最新記事が表示されます'], ['current','国内の動きを押さえる','ニュースの読み込み後に最新記事が表示されます'], ['current','経済・テクノロジーの話題','ニュースの読み込み後に最新記事が表示されます'], ['current','社会をめぐる最新トピック','ニュースの読み込み後に最新記事が表示されます'],
+    ['biochem','生化学の最新研究','ニュースの読み込み後に最新記事が表示されます'], ['biochem','分子生物学の研究動向','ニュースの読み込み後に最新記事が表示されます'], ['biochem','医療・創薬のニュース','ニュースの読み込み後に最新記事が表示されます'], ['biochem','生命科学の注目トピック','ニュースの読み込み後に最新記事が表示されます']
+  ].map(([category,title,source], i) => ({ id:`fallback-${i}`, category, title, source, link:'https://news.google.com/', date:'' }));
+}
+function render() {
+  const articles = state.articles.filter(a => state.filter === 'all' || a.category === state.filter || (state.filter === 'saved' && state.saved.has(a.id)));
+  feed.replaceChildren();
+  if (!articles.length) { feed.innerHTML = '<p class="empty">保存した記事はまだありません。</p>'; return; }
+  const template = document.querySelector('#article-template');
+  articles.forEach(article => {
+    const node = template.content.cloneNode(true);
+    const category = node.querySelector('.category');
+    category.textContent = article.category === 'current' ? '時事' : '生化学';
+    category.classList.toggle('biochem', article.category === 'biochem');
+    node.querySelector('time').textContent = article.date ? new Intl.DateTimeFormat('ja-JP',{month:'numeric',day:'numeric'}).format(new Date(article.date)) : '';
+    node.querySelector('h2').textContent = article.title;
+    node.querySelector('.source').textContent = article.source;
+    const link = node.querySelector('.read-link'); link.href = article.link;
+    const save = node.querySelector('.save-button');
+    const isSaved = state.saved.has(article.id); save.classList.toggle('is-saved', isSaved); save.textContent = isSaved ? '♥' : '♡';
+    save.addEventListener('click', () => { state.saved.has(article.id) ? state.saved.delete(article.id) : state.saved.add(article.id); localStorage.setItem('saved-articles', JSON.stringify([...state.saved])); render(); });
+    feed.append(node);
+  });
+}
+async function load(force = false) {
+  if (force) { sessionStorage.clear(); }
+  refreshButton.disabled = true; statusLine.classList.remove('error'); statusLine.textContent = '最新の記事を集めています…';
+  try { state.articles = (await Promise.all([getNews('current'), getNews('biochem')])).flat(); statusLine.textContent = '更新済み — 各カテゴリ4本'; }
+  catch { state.articles = fallbackArticles(); statusLine.textContent = '通信できないため、再読み込みで最新記事を取得してください。'; statusLine.classList.add('error'); }
+  refreshButton.disabled = false; render();
+}
+document.querySelectorAll('.tab').forEach(button => button.addEventListener('click', () => { document.querySelector('.tab.is-active').classList.remove('is-active'); button.classList.add('is-active'); state.filter = button.dataset.filter; render(); }));
+refreshButton.addEventListener('click', () => load(true));
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('./service-worker.js');
+load();

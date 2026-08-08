@@ -3,7 +3,8 @@ const FEEDS = {
   biochem: { url: 'https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(TITLE:biochemistry%20OR%20TITLE:biochemical%20OR%20TITLE:%22molecular%20biology%22)%20AND%20OPEN_ACCESS:Y&format=json&pageSize=8&sort_date:y', source: 'Europe PMC', type: 'json' }
 };
 const CACHE_MAX_AGE = 30 * 60 * 1000;
-const TRANSLATION_CACHE_KEY = 'morning-eight-translations';
+const NEWS_CACHE_KEY = 'morning-eight-news-ja-v2';
+const TRANSLATION_CACHE_KEY = 'morning-eight-translations-v2';
 const state = { articles: [], filter: 'all', saved: new Set(JSON.parse(localStorage.getItem('saved-articles') || '[]')) };
 const feed = document.querySelector('#feed');
 const statusLine = document.querySelector('#status');
@@ -27,14 +28,17 @@ async function getNews(category) {
   if (!response.ok) throw new Error('ニュースを取得できませんでした');
   if (feedInfo.type === 'json') {
     const data = await response.json();
-    return (data.resultList?.result || []).filter(article => article.isOpenAccess === 'Y').slice(0, 4).map((article, index) => ({
-      id: `biochem-${article.source}-${article.id || index}`,
-      category: 'biochem',
-      title: article.title || '生化学の新着研究',
-      link: `https://europepmc.org/article/${article.source}/${article.id}`,
-      source: article.journalTitle || feedInfo.source,
-      date: article.firstPublicationDate || article.pubYear || ''
-    }));
+    return (data.resultList?.result || []).filter(article => article.isOpenAccess === 'Y').slice(0, 4).map((article, index) => {
+      const originalUrl = `https://europepmc.org/article/${article.source}/${article.id}`;
+      return {
+        id: `biochem-${article.source}-${article.id || index}`,
+        category: 'biochem',
+        title: article.title || '生化学の新着研究',
+        link: `https://translate.google.com/translate?sl=en&tl=ja&u=${encodeURIComponent(originalUrl)}`,
+        source: article.journalTitle || feedInfo.source,
+        date: article.firstPublicationDate || ''
+      };
+    });
   }
   const articles = parseFeed(await response.text(), category);
   return articles;
@@ -44,15 +48,16 @@ function readTranslationCache() {
   try { return JSON.parse(localStorage.getItem(TRANSLATION_CACHE_KEY) || '{}'); } catch { return {}; }
 }
 async function translateTitle(title, translations) {
-  if (isJapanese(title) || translations[title]) return translations[title] || title;
-  try {
-    const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(title)}&langpair=en|ja`;
-    const response = await fetch(url);
-    const data = await response.json();
-    const translated = data.responseData?.translatedText;
-    if (translated && translated !== title) { translations[title] = translated; return translated; }
-  } catch { /* 元の見出しを表示して記事は読める状態に保つ */ }
-  return title;
+  if (isJapanese(title)) return title;
+  if (translations[title]) return translations[title];
+  const url = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(title)}&langpair=en|ja`;
+  const response = await fetch(url);
+  if (!response.ok) throw new Error('翻訳を取得できませんでした');
+  const data = await response.json();
+  const translated = data.responseData?.translatedText;
+  if (!translated || translated === title) throw new Error('翻訳結果がありません');
+  translations[title] = translated;
+  return translated;
 }
 async function translateArticles(articles) {
   const translations = readTranslationCache();
@@ -62,12 +67,12 @@ async function translateArticles(articles) {
 }
 function readCache() {
   try {
-    const cached = JSON.parse(localStorage.getItem('morning-eight-news') || 'null');
+    const cached = JSON.parse(localStorage.getItem(NEWS_CACHE_KEY) || 'null');
     return cached && Date.now() - cached.savedAt < CACHE_MAX_AGE ? cached.articles : null;
   } catch { return null; }
 }
 function writeCache(articles) {
-  localStorage.setItem('morning-eight-news', JSON.stringify({ articles, savedAt: Date.now() }));
+  localStorage.setItem(NEWS_CACHE_KEY, JSON.stringify({ articles, savedAt: Date.now() }));
 }
 function fallbackArticles() {
   return [
@@ -101,10 +106,9 @@ async function load(force = false) {
   if (cached) { state.articles = cached; statusLine.textContent = '保存済みの記事を表示中…'; render(); }
   else { statusLine.textContent = '最新の記事を集めています…'; }
   try {
-    state.articles = (await Promise.all([getNews('current'), getNews('biochem')])).flat();
-    writeCache(state.articles); render();
-    statusLine.textContent = '日本語訳を準備中…';
-    state.articles = await translateArticles(state.articles);
+    const [current, biochem] = await Promise.all([getNews('current'), getNews('biochem')]);
+    statusLine.textContent = '生化学ニュースを日本語に訳しています…';
+    state.articles = [...current, ...(await translateArticles(biochem))];
     writeCache(state.articles); statusLine.textContent = '更新済み — 各カテゴリ4本';
   }
   catch { state.articles = fallbackArticles(); statusLine.textContent = '通信できないため、再読み込みで最新記事を取得してください。'; statusLine.classList.add('error'); }

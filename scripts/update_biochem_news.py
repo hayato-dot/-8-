@@ -4,7 +4,7 @@ import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
 
 FEED_URL = "https://www.riken.jp/feed/press_feed/"
-CURRENT_NEWS_FEED_URL = "https://www3.nhk.or.jp/rss/news/cat0.xml"
+CURRENT_NEWS_FEED_URL = "https://www3.nhk.or.jp/rss/news/cat8.xml"
 KEYWORDS = ("生化学", "生命", "遺伝子", "細胞", "タンパク", "DNA", "RNA", "がん", "免疫", "創薬", "医療", "薬", "感染", "iPS", "脳", "腸", "微生物", "再生", "ミトコンドリア", "代謝", "脂質", "酵素", "植物")
 
 with urllib.request.urlopen(FEED_URL, timeout=30) as response:

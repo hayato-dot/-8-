@@ -1,10 +1,11 @@
 import json
 import urllib.request
 import xml.etree.ElementTree as ET
+from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 
 FEED_URL = "https://www.riken.jp/feed/press_feed/"
-CURRENT_NEWS_FEED_URL = "https://www3.nhk.or.jp/rss/news/cat8.xml"
+CURRENT_NEWS_FEED_URL = "https://www3.nhk.or.jp/rss/news/cat0.xml"
 KEYWORDS = ("生化学", "生命", "遺伝子", "細胞", "タンパク", "DNA", "RNA", "がん", "免疫", "創薬", "医療", "薬", "感染", "iPS", "脳", "腸", "微生物", "再生", "ミトコンドリア", "代謝", "脂質", "酵素", "植物")
 
 with urllib.request.urlopen(FEED_URL, timeout=30) as response:
@@ -41,12 +42,18 @@ for path in ("data/biochem.json", "latest/data/biochem.json"):
         output.write("\n")
 
 current_articles = []
-for item in current_root.findall("./channel/item")[:4]:
+week_ago = datetime.now(timezone.utc) - timedelta(days=7)
+for item in current_root.findall("./channel/item"):
     published = item.findtext("pubDate") or ""
     try:
-        published = parsedate_to_datetime(published).date().isoformat()
+        published_at = parsedate_to_datetime(published)
+        if published_at.tzinfo is None:
+            published_at = published_at.replace(tzinfo=timezone.utc)
+        if published_at.astimezone(timezone.utc) < week_ago:
+            continue
+        published = published_at.date().isoformat()
     except (TypeError, ValueError):
-        pass
+        continue
     current_articles.append({
         "id": "nhk-" + (item.findtext("guid") or item.findtext("link") or item.findtext("title") or ""),
         "category": "current",
@@ -55,6 +62,8 @@ for item in current_root.findall("./channel/item")[:4]:
         "source": "NHK NEWS WEB",
         "date": published,
     })
+    if len(current_articles) == 4:
+        break
 
 if len(current_articles) < 4:
     raise RuntimeError("時事ニュースが4件見つかりませんでした")

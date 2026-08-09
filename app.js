@@ -78,5 +78,5 @@ async function load(force = false) {
 }
 document.querySelectorAll('.tab').forEach(button => button.addEventListener('click', () => { document.querySelector('.tab.is-active').classList.remove('is-active'); button.classList.add('is-active'); state.filter = button.dataset.filter; render(); }));
 refreshButton.addEventListener('click', () => load(true));
-if ('serviceWorker' in navigator) navigator.serviceWorker.register('./service-worker.js');
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('./service-worker.js?rev=20260809');
 load();

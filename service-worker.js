@@ -1,5 +1,5 @@
-const CACHE = 'morning-eight-v7';
-const ASSETS = ['./', './index.html', './styles.css', './app.js', './manifest.webmanifest'];
+const CACHE = 'morning-eight-v8';
+const ASSETS = ['./', './index.html?rev=20260809', './styles.css?rev=20260809', './app.js?rev=20260809', './manifest.webmanifest?rev=20260809', './data/current.json', './data/biochem.json'];
 self.addEventListener('install', event => event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)).then(() => self.skipWaiting())));
 self.addEventListener('activate', event => event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key !== CACHE).map(key => caches.delete(key)))).then(() => self.clients.claim())));
 self.addEventListener('fetch', event => {

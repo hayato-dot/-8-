@@ -1,0 +1,26 @@
+:root { color-scheme: light; --ink:#182522; --muted:#66736f; --paper:#f7f7f1; --line:#dce2dd; --green:#0c5c4f; --pale:#e3f0e9; --gold:#a16c12; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--paper); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",sans-serif; }
+button, a { font:inherit; }
+.app-shell { width:min(100%, 720px); margin:auto; padding:26px 20px 42px; }
+.hero { display:flex; align-items:flex-start; justify-content:space-between; border-bottom:1px solid var(--line); padding-bottom:20px; }
+.eyebrow { margin:0 0 5px; color:var(--green); font-size:.7rem; letter-spacing:.13em; font-weight:700; }
+h1 { margin:0; font-size:2rem; letter-spacing:-.04em; }
+.today { margin:6px 0 0; color:var(--muted); font-size:.86rem; }
+.icon-button { display:grid; place-items:center; width:42px; height:42px; border:1px solid var(--line); border-radius:50%; background:white; color:var(--green); cursor:pointer; font-size:1.55rem; }
+.icon-button:disabled { opacity:.5; cursor:wait; }
+.intro { display:flex; flex-direction:column; gap:4px; margin:24px 0 20px; padding:16px; background:var(--pale); border-radius:12px; }
+.intro strong { font-size:1rem; }.intro span { color:var(--green); font-size:.8rem; }
+.tabs { display:flex; gap:4px; overflow-x:auto; padding-bottom:10px; border-bottom:1px solid var(--line); }
+.tab { flex:none; padding:8px 11px; border:0; border-radius:8px; background:transparent; color:var(--muted); cursor:pointer; }
+.tab span { margin-left:3px; font-size:.75rem; }.tab.is-active { background:var(--green); color:white; font-weight:700; }
+.status { min-height:20px; margin:18px 0 5px; color:var(--muted); font-size:.83rem; }
+.status:empty { display:none; }.status.error { color:#9a3412; }
+.feed { display:grid; gap:0; }
+.article { padding:20px 2px; border-bottom:1px solid var(--line); }
+.article-meta { display:flex; gap:9px; align-items:center; margin-bottom:8px; color:var(--muted); font-size:.75rem; }
+.category { display:inline-block; padding:3px 7px; border-radius:999px; background:#e9eeeb; color:var(--green); font-weight:700; }.category.biochem { background:#f7eddb; color:var(--gold); }
+.article h2 { margin:0; font-size:1.07rem; line-height:1.55; letter-spacing:-.015em; }.source { margin:7px 0 14px; color:var(--muted); font-size:.82rem; }
+.article-actions { display:flex; justify-content:space-between; align-items:center; }.read-link { color:var(--green); text-decoration:none; font-size:.86rem; font-weight:700; }.save-button { width:34px; height:34px; border:1px solid var(--line); border-radius:50%; background:white; color:var(--green); cursor:pointer; font-size:1.2rem; }.save-button.is-saved { color:#c43d4b; border-color:#e3a8ae; }
+.empty { padding:36px 0; color:var(--muted); text-align:center; }
+@media (min-width:600px) { .app-shell { padding-top:40px; }.feed { grid-template-columns:1fr 1fr; column-gap:28px; }.article { min-height:220px; }.article h2 { font-size:1.12rem; } }

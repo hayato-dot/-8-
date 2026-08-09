@@ -1,0 +1,36 @@
+{
+  "articles": [
+    {
+      "id": "riken-https://www.riken.jp/press/2026/20260806_1/index.html",
+      "category": "biochem",
+      "title": "環境フレンドリーな微生物由来窒素肥料を開発",
+      "link": "https://www.riken.jp/press/2026/20260806_1/index.html",
+      "source": "理化学研究所",
+      "date": "2026-08-06"
+    },
+    {
+      "id": "riken-https://www.riken.jp/press/2026/20260805_2/index.html",
+      "category": "biochem",
+      "title": "植物の乾燥耐性を向上させる化合物の開発",
+      "link": "https://www.riken.jp/press/2026/20260805_2/index.html",
+      "source": "理化学研究所",
+      "date": "2026-08-05"
+    },
+    {
+      "id": "riken-https://www.riken.jp/press/2026/20260803_3/index.html",
+      "category": "biochem",
+      "title": "がん細胞が酸化ストレスから身を守り生存する仕組みを発見",
+      "link": "https://www.riken.jp/press/2026/20260803_3/index.html",
+      "source": "理化学研究所",
+      "date": "2026-08-04"
+    },
+    {
+      "id": "riken-https://www.riken.jp/press/2026/20260804_2/index.html",
+      "category": "biochem",
+      "title": "栄養の質ではなく、量を感じる腸細胞",
+      "link": "https://www.riken.jp/press/2026/20260804_2/index.html",
+      "source": "理化学研究所",
+      "date": "2026-08-04"
+    }
+  ]
+}

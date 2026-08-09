@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0c5c4f" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="朝8ニュース" />
+    <meta name="description" content="時事と生化学のニュースを、毎日8本だけ読むためのアプリ" />
+    <link rel="manifest" href="manifest.webmanifest?rev=20260809" />
+    <link rel="apple-touch-icon" href="icons/icon-192.svg" />
+    <link rel="stylesheet" href="styles.css?rev=20260809" />
+    <title>朝8ニュース</title>
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">YOUR DAILY BRIEFING</p>
+          <h1>朝8ニュース</h1>
+          <p id="today" class="today"></p>
+        </div>
+        <button id="refresh" class="icon-button" type="button" aria-label="ニュースを更新">↻</button>
+      </header>
+
+      <section class="intro" aria-label="今日のニュース概要">
+        <strong>通学の10分で、世界と生命科学を追いつく。</strong>
+        <span>時事 4本・生化学 4本を厳選</span>
+      </section>
+
+      <nav class="tabs" aria-label="表示する記事">
+        <button class="tab is-active" type="button" data-filter="all">すべて <span>8</span></button>
+        <button class="tab" type="button" data-filter="current">時事 <span>4</span></button>
+        <button class="tab" type="button" data-filter="biochem">生化学 <span>4</span></button>
+        <button class="tab" type="button" data-filter="saved">保存済み</button>
+      </nav>
+
+      <p id="status" class="status" role="status">ニュースを準備しています…</p>
+      <section id="feed" class="feed" aria-live="polite"></section>
+    </main>
+
+    <template id="article-template">
+      <article class="article">
+        <div class="article-meta"><span class="category"></span><time></time></div>
+        <h2></h2>
+        <p class="source"></p>
+        <div class="article-actions">
+          <a class="read-link" target="_blank" rel="noopener noreferrer">記事を読む <span aria-hidden="true">→</span></a>
+          <button class="save-button" type="button" aria-label="あとで読むに保存">♡</button>
+        </div>
+      </article>
+    </template>
+
+    <script src="app.js?rev=20260809"></script>
+  </body>
+</html>

@@ -35,9 +35,10 @@ for item in root.findall("./channel/item"):
 if len(articles) < 4:
     raise RuntimeError("生命科学系の記事が4件見つかりませんでした")
 
-with open("data/biochem.json", "w", encoding="utf-8") as output:
-    json.dump({"articles": articles[:4]}, output, ensure_ascii=False, indent=2)
-    output.write("\n")
+for path in ("data/biochem.json", "latest/data/biochem.json"):
+    with open(path, "w", encoding="utf-8") as output:
+        json.dump({"articles": articles[:4]}, output, ensure_ascii=False, indent=2)
+        output.write("\n")
 
 current_articles = []
 for item in current_root.findall("./channel/item")[:4]:
@@ -58,6 +59,7 @@ for item in current_root.findall("./channel/item")[:4]:
 if len(current_articles) < 4:
     raise RuntimeError("時事ニュースが4件見つかりませんでした")
 
-with open("data/current.json", "w", encoding="utf-8") as output:
-    json.dump({"articles": current_articles}, output, ensure_ascii=False, indent=2)
-    output.write("\n")
+for path in ("data/current.json", "latest/data/current.json"):
+    with open(path, "w", encoding="utf-8") as output:
+        json.dump({"articles": current_articles}, output, ensure_ascii=False, indent=2)
+        output.write("\n")

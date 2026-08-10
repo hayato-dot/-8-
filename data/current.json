@@ -1,36 +1,36 @@
 {
   "articles": [
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6591141?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6591272?source=rss",
       "category": "current",
-      "title": "台風 11日に東北～関東に上陸恐れ",
-      "link": "https://news.yahoo.co.jp/pickup/6591141?source=rss",
+      "title": "台風が関東上陸へ 交通乱れに注意",
+      "link": "https://news.yahoo.co.jp/pickup/6591272?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-08-09"
+      "date": "2026-08-10"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6591140?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6591276?source=rss",
       "category": "current",
-      "title": "自衛隊の指揮統制に国産AI 検討",
-      "link": "https://news.yahoo.co.jp/pickup/6591140?source=rss",
+      "title": "熊本地震2週間 6千人なお避難生活",
+      "link": "https://news.yahoo.co.jp/pickup/6591276?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-08-09"
+      "date": "2026-08-10"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6591146?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6591277?source=rss",
       "category": "current",
-      "title": "不同意性交の認知件数 増加傾向",
-      "link": "https://news.yahoo.co.jp/pickup/6591146?source=rss",
+      "title": "中国で複数邦人の拘束が判明",
+      "link": "https://news.yahoo.co.jp/pickup/6591277?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-08-09"
+      "date": "2026-08-10"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6591142?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6591280?source=rss",
       "category": "current",
-      "title": "AI「暴走」自律的攻撃に米危機感",
-      "link": "https://news.yahoo.co.jp/pickup/6591142?source=rss",
+      "title": "母殺害疑い娘が投げ銭1千万円以上",
+      "link": "https://news.yahoo.co.jp/pickup/6591280?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-08-09"
+      "date": "2026-08-10"
     }
   ]
 }

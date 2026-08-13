@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "id": "riken-https://www.riken.jp/press/2026/20260813_1/index.html",
+      "category": "biochem",
+      "title": "冬の低温が植物再生を促進する仕組みを解明",
+      "link": "https://www.riken.jp/press/2026/20260813_1/index.html",
+      "source": "理化学研究所",
+      "date": "2026-08-13"
+    },
+    {
       "id": "riken-https://www.riken.jp/press/2026/20260810_1/index.html",
       "category": "biochem",
       "title": "細胞分裂後の染色体の形がDNA複製を左右する",
@@ -23,14 +31,6 @@
       "link": "https://www.riken.jp/press/2026/20260805_2/index.html",
       "source": "理化学研究所",
       "date": "2026-08-05"
-    },
-    {
-      "id": "riken-https://www.riken.jp/press/2026/20260803_3/index.html",
-      "category": "biochem",
-      "title": "がん細胞が酸化ストレスから身を守り生存する仕組みを発見",
-      "link": "https://www.riken.jp/press/2026/20260803_3/index.html",
-      "source": "理化学研究所",
-      "date": "2026-08-04"
     }
   ]
 }

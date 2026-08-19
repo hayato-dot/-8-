@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "id": "riken-https://www.riken.jp/press/2026/20260819_1/index.html",
+      "category": "biochem",
+      "title": "脳が予想外の音を的確に見つける仕組み",
+      "link": "https://www.riken.jp/press/2026/20260819_1/index.html",
+      "source": "理化学研究所",
+      "date": "2026-08-19"
+    },
+    {
       "id": "riken-https://www.riken.jp/press/2026/20260813_1/index.html",
       "category": "biochem",
       "title": "冬の低温が植物再生を促進する仕組みを解明",
@@ -23,14 +31,6 @@
       "link": "https://www.riken.jp/press/2026/20260806_1/index.html",
       "source": "理化学研究所",
       "date": "2026-08-06"
-    },
-    {
-      "id": "riken-https://www.riken.jp/press/2026/20260805_2/index.html",
-      "category": "biochem",
-      "title": "植物の乾燥耐性を向上させる化合物の開発",
-      "link": "https://www.riken.jp/press/2026/20260805_2/index.html",
-      "source": "理化学研究所",
-      "date": "2026-08-05"
     }
   ]
 }

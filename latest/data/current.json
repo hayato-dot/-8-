@@ -1,36 +1,36 @@
 {
   "articles": [
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6592596?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6592717?source=rss",
       "category": "current",
-      "title": "22日 西・東日本は急な雷雨に注意",
-      "link": "https://news.yahoo.co.jp/pickup/6592596?source=rss",
+      "title": "茨城などで最大震度5弱 津波なし",
+      "link": "https://news.yahoo.co.jp/pickup/6592717?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-08-21"
+      "date": "2026-08-22"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6592599?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6592722?source=rss",
       "category": "current",
-      "title": "千葉豪雨 車両約2500台の撤去完了",
-      "link": "https://news.yahoo.co.jp/pickup/6592599?source=rss",
+      "title": "震度5弱 関東の鉄道運行情報",
+      "link": "https://news.yahoo.co.jp/pickup/6592722?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-08-21"
+      "date": "2026-08-22"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6592600?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6592726?source=rss",
       "category": "current",
-      "title": "赤根所長 ICC加盟国に支援求める",
-      "link": "https://news.yahoo.co.jp/pickup/6592600?source=rss",
+      "title": "タイ南部3県 爆発や放火相次ぐ",
+      "link": "https://news.yahoo.co.jp/pickup/6592726?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-08-21"
+      "date": "2026-08-22"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6592602?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6592718?source=rss",
       "category": "current",
-      "title": "4人死亡「見張員はベテラン」証言",
-      "link": "https://news.yahoo.co.jp/pickup/6592602?source=rss",
+      "title": "化学メーカー工場 作業員2人死亡",
+      "link": "https://news.yahoo.co.jp/pickup/6592718?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-08-21"
+      "date": "2026-08-22"
     }
   ]
 }

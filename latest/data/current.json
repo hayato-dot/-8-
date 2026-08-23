@@ -1,36 +1,36 @@
 {
   "articles": [
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6592717?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6592828?source=rss",
       "category": "current",
-      "title": "茨城などで最大震度5弱 津波なし",
-      "link": "https://news.yahoo.co.jp/pickup/6592717?source=rss",
+      "title": "全国で厳しい暑さ 天気急変も注意",
+      "link": "https://news.yahoo.co.jp/pickup/6592828?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-08-22"
+      "date": "2026-08-23"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6592722?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6592831?source=rss",
       "category": "current",
-      "title": "震度5弱 関東の鉄道運行情報",
-      "link": "https://news.yahoo.co.jp/pickup/6592722?source=rss",
+      "title": "処理水放出3年 タンク貯蔵量7%減",
+      "link": "https://news.yahoo.co.jp/pickup/6592831?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-08-22"
+      "date": "2026-08-23"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6592726?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6592824?source=rss",
       "category": "current",
-      "title": "タイ南部3県 爆発や放火相次ぐ",
-      "link": "https://news.yahoo.co.jp/pickup/6592726?source=rss",
+      "title": "車と衝突 バイクの18歳高校生死亡",
+      "link": "https://news.yahoo.co.jp/pickup/6592824?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-08-22"
+      "date": "2026-08-23"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6592718?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6592825?source=rss",
       "category": "current",
-      "title": "化学メーカー工場 作業員2人死亡",
-      "link": "https://news.yahoo.co.jp/pickup/6592718?source=rss",
+      "title": "水上バイクによる事故 後を絶たず",
+      "link": "https://news.yahoo.co.jp/pickup/6592825?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-08-22"
+      "date": "2026-08-23"
     }
   ]
 }

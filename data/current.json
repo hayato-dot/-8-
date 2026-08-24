@@ -1,36 +1,36 @@
 {
   "articles": [
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6592828?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6592951?source=rss",
       "category": "current",
-      "title": "全国で厳しい暑さ 天気急変も注意",
-      "link": "https://news.yahoo.co.jp/pickup/6592828?source=rss",
+      "title": "台風18号 26日にかけ沖縄など接近",
+      "link": "https://news.yahoo.co.jp/pickup/6592951?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-08-23"
+      "date": "2026-08-24"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6592831?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6592956?source=rss",
       "category": "current",
-      "title": "処理水放出3年 タンク貯蔵量7%減",
-      "link": "https://news.yahoo.co.jp/pickup/6592831?source=rss",
+      "title": "同志社理事長辞任へ 辺野古事故で",
+      "link": "https://news.yahoo.co.jp/pickup/6592956?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-08-23"
+      "date": "2026-08-24"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6592824?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6592952?source=rss",
       "category": "current",
-      "title": "車と衝突 バイクの18歳高校生死亡",
-      "link": "https://news.yahoo.co.jp/pickup/6592824?source=rss",
+      "title": "相模原17歳死亡 ぼう然とする友人",
+      "link": "https://news.yahoo.co.jp/pickup/6592952?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-08-23"
+      "date": "2026-08-24"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6592825?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6592947?source=rss",
       "category": "current",
-      "title": "水上バイクによる事故 後を絶たず",
-      "link": "https://news.yahoo.co.jp/pickup/6592825?source=rss",
+      "title": "18歳死亡 灯籠と柱に挟まれる",
+      "link": "https://news.yahoo.co.jp/pickup/6592947?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-08-23"
+      "date": "2026-08-24"
     }
   ]
 }

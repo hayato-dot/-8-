@@ -1,36 +1,36 @@
 {
   "articles": [
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6592951?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6593083?source=rss",
       "category": "current",
-      "title": "台風18号 26日にかけ沖縄など接近",
-      "link": "https://news.yahoo.co.jp/pickup/6592951?source=rss",
+      "title": "台風 沖縄・奄美は昼前にかけ暴風",
+      "link": "https://news.yahoo.co.jp/pickup/6593083?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-08-24"
+      "date": "2026-08-25"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6592956?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6593082?source=rss",
       "category": "current",
-      "title": "同志社理事長辞任へ 辺野古事故で",
-      "link": "https://news.yahoo.co.jp/pickup/6592956?source=rss",
+      "title": "財務省概算要求 国債費が過去最高",
+      "link": "https://news.yahoo.co.jp/pickup/6593082?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-08-24"
+      "date": "2026-08-25"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6592952?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6593089?source=rss",
       "category": "current",
-      "title": "相模原17歳死亡 ぼう然とする友人",
-      "link": "https://news.yahoo.co.jp/pickup/6592952?source=rss",
+      "title": "コンテンツ支援の司令塔 新設検討",
+      "link": "https://news.yahoo.co.jp/pickup/6593089?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-08-24"
+      "date": "2026-08-25"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6592947?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6593087?source=rss",
       "category": "current",
-      "title": "18歳死亡 灯籠と柱に挟まれる",
-      "link": "https://news.yahoo.co.jp/pickup/6592947?source=rss",
+      "title": "4人死亡 見張り員所定位置おらず",
+      "link": "https://news.yahoo.co.jp/pickup/6593087?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-08-24"
+      "date": "2026-08-25"
     }
   ]
 }

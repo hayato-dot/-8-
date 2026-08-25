@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "id": "riken-https://www.riken.jp/press/2026/20260825_3/index.html",
+      "category": "biochem",
+      "title": "細胞の「進化の記録」推定の新手法開発に成功",
+      "link": "https://www.riken.jp/press/2026/20260825_3/index.html",
+      "source": "理化学研究所",
+      "date": "2026-08-25"
+    },
+    {
       "id": "riken-https://www.riken.jp/press/2026/20260821_3/index.html",
       "category": "biochem",
       "title": "家畜における一過性腸内かく乱を改善する好熱菌",
@@ -23,14 +31,6 @@
       "link": "https://www.riken.jp/press/2026/20260819_1/index.html",
       "source": "理化学研究所",
       "date": "2026-08-19"
-    },
-    {
-      "id": "riken-https://www.riken.jp/press/2026/20260813_1/index.html",
-      "category": "biochem",
-      "title": "冬の低温が植物再生を促進する仕組みを解明",
-      "link": "https://www.riken.jp/press/2026/20260813_1/index.html",
-      "source": "理化学研究所",
-      "date": "2026-08-13"
     }
   ]
 }

@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "id": "riken-https://www.riken.jp/press/2026/20260828_1/index.html",
+      "category": "biochem",
+      "title": "RASがんの増殖シグナルを\"遠隔操作\"で遮断する新戦略",
+      "link": "https://www.riken.jp/press/2026/20260828_1/index.html",
+      "source": "理化学研究所",
+      "date": "2026-08-28"
+    },
+    {
+      "id": "riken-https://www.riken.jp/press/2026/20260826_2/index.html",
+      "category": "biochem",
+      "title": "暗黒の細胞死エレボーシスを制御する分子機構の解明",
+      "link": "https://www.riken.jp/press/2026/20260826_2/index.html",
+      "source": "理化学研究所",
+      "date": "2026-08-26"
+    },
+    {
       "id": "riken-https://www.riken.jp/press/2026/20260825_3/index.html",
       "category": "biochem",
       "title": "細胞の「進化の記録」推定の新手法開発に成功",
@@ -15,22 +31,6 @@
       "link": "https://www.riken.jp/press/2026/20260821_3/index.html",
       "source": "理化学研究所",
       "date": "2026-08-21"
-    },
-    {
-      "id": "riken-https://www.riken.jp/press/2026/20260821_1/index.html",
-      "category": "biochem",
-      "title": "超高齢期のT細胞免疫の再編成を明らかに",
-      "link": "https://www.riken.jp/press/2026/20260821_1/index.html",
-      "source": "理化学研究所",
-      "date": "2026-08-21"
-    },
-    {
-      "id": "riken-https://www.riken.jp/press/2026/20260819_1/index.html",
-      "category": "biochem",
-      "title": "脳が予想外の音を的確に見つける仕組み",
-      "link": "https://www.riken.jp/press/2026/20260819_1/index.html",
-      "source": "理化学研究所",
-      "date": "2026-08-19"
     }
   ]
 }

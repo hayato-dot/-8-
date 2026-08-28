@@ -1,36 +1,36 @@
 {
   "articles": [
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6593083?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6593389?source=rss",
       "category": "current",
-      "title": "台風 沖縄・奄美は昼前にかけ暴風",
-      "link": "https://news.yahoo.co.jp/pickup/6593083?source=rss",
+      "title": "北陸や北海道 午後も激しい雨恐れ",
+      "link": "https://news.yahoo.co.jp/pickup/6593389?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-08-25"
+      "date": "2026-08-28"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6593082?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6593391?source=rss",
       "category": "current",
-      "title": "財務省概算要求 国債費が過去最高",
-      "link": "https://news.yahoo.co.jp/pickup/6593082?source=rss",
+      "title": "横浜市長 辞職の意向を表明",
+      "link": "https://news.yahoo.co.jp/pickup/6593391?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-08-25"
+      "date": "2026-08-28"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6593089?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6593387?source=rss",
       "category": "current",
-      "title": "コンテンツ支援の司令塔 新設検討",
-      "link": "https://news.yahoo.co.jp/pickup/6593089?source=rss",
+      "title": "ネパールで不明日本人ら 名簿公表",
+      "link": "https://news.yahoo.co.jp/pickup/6593387?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-08-25"
+      "date": "2026-08-28"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6593087?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6593380?source=rss",
       "category": "current",
-      "title": "4人死亡 見張り員所定位置おらず",
-      "link": "https://news.yahoo.co.jp/pickup/6593087?source=rss",
+      "title": "うつ病で2年半こもる 回復後の道",
+      "link": "https://news.yahoo.co.jp/pickup/6593380?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-08-25"
+      "date": "2026-08-28"
     }
   ]
 }

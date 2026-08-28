@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "id": "riken-https://www.riken.jp/press/2026/20260829_1/index.html",
+      "category": "biochem",
+      "title": "ゴルジ体膜の脂質再編成が細胞内分解系を制御",
+      "link": "https://www.riken.jp/press/2026/20260829_1/index.html",
+      "source": "理化学研究所",
+      "date": "2026-08-29"
+    },
+    {
       "id": "riken-https://www.riken.jp/press/2026/20260828_1/index.html",
       "category": "biochem",
       "title": "RASがんの増殖シグナルを\"遠隔操作\"で遮断する新戦略",
@@ -23,14 +31,6 @@
       "link": "https://www.riken.jp/press/2026/20260825_3/index.html",
       "source": "理化学研究所",
       "date": "2026-08-25"
-    },
-    {
-      "id": "riken-https://www.riken.jp/press/2026/20260821_3/index.html",
-      "category": "biochem",
-      "title": "家畜における一過性腸内かく乱を改善する好熱菌",
-      "link": "https://www.riken.jp/press/2026/20260821_3/index.html",
-      "source": "理化学研究所",
-      "date": "2026-08-21"
     }
   ]
 }

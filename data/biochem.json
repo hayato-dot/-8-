@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "id": "riken-https://www.riken.jp/press/2026/20260831_1/index.html",
+      "category": "biochem",
+      "title": "敗血症性肝障害を「タンパク質品質管理」の視点から解明",
+      "link": "https://www.riken.jp/press/2026/20260831_1/index.html",
+      "source": "理化学研究所",
+      "date": "2026-08-31"
+    },
+    {
       "id": "riken-https://www.riken.jp/press/2026/20260829_1/index.html",
       "category": "biochem",
       "title": "ゴルジ体膜の脂質再編成が細胞内分解系を制御",
@@ -23,14 +31,6 @@
       "link": "https://www.riken.jp/press/2026/20260826_2/index.html",
       "source": "理化学研究所",
       "date": "2026-08-26"
-    },
-    {
-      "id": "riken-https://www.riken.jp/press/2026/20260825_3/index.html",
-      "category": "biochem",
-      "title": "細胞の「進化の記録」推定の新手法開発に成功",
-      "link": "https://www.riken.jp/press/2026/20260825_3/index.html",
-      "source": "理化学研究所",
-      "date": "2026-08-25"
     }
   ]
 }

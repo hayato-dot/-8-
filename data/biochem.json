@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "id": "riken-https://www.riken.jp/press/2026/20260902_1/index.html",
+      "category": "biochem",
+      "title": "自己免疫疾患の「原因変異」を見極める新技術を開発",
+      "link": "https://www.riken.jp/press/2026/20260902_1/index.html",
+      "source": "理化学研究所",
+      "date": "2026-09-02"
+    },
+    {
       "id": "riken-https://www.riken.jp/press/2026/20260831_1/index.html",
       "category": "biochem",
       "title": "敗血症性肝障害を「タンパク質品質管理」の視点から解明",
@@ -23,14 +31,6 @@
       "link": "https://www.riken.jp/press/2026/20260828_1/index.html",
       "source": "理化学研究所",
       "date": "2026-08-28"
-    },
-    {
-      "id": "riken-https://www.riken.jp/press/2026/20260826_2/index.html",
-      "category": "biochem",
-      "title": "暗黒の細胞死エレボーシスを制御する分子機構の解明",
-      "link": "https://www.riken.jp/press/2026/20260826_2/index.html",
-      "source": "理化学研究所",
-      "date": "2026-08-26"
     }
   ]
 }

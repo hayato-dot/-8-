@@ -1,36 +1,36 @@
 {
   "articles": [
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6594140?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6594245?source=rss",
       "category": "current",
-      "title": "九州で記録的大雨の恐れ 厳重警戒",
-      "link": "https://news.yahoo.co.jp/pickup/6594140?source=rss",
+      "title": "屋久島町に土砂災害特別警報",
+      "link": "https://news.yahoo.co.jp/pickup/6594245?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-09-03"
+      "date": "2026-09-04"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6594148?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6594249?source=rss",
       "category": "current",
-      "title": "日本製紙八代工場の火災鎮火",
-      "link": "https://news.yahoo.co.jp/pickup/6594148?source=rss",
+      "title": "屋久島町に特別警報 最新情報",
+      "link": "https://news.yahoo.co.jp/pickup/6594249?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-09-03"
+      "date": "2026-09-04"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6594150?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6594240?source=rss",
       "category": "current",
-      "title": "内閣改造 片山さつき財務相留任へ",
-      "link": "https://news.yahoo.co.jp/pickup/6594150?source=rss",
+      "title": "関東～九州 大雨の終わり見えず",
+      "link": "https://news.yahoo.co.jp/pickup/6594240?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-09-03"
+      "date": "2026-09-04"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6594110?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6594248?source=rss",
       "category": "current",
-      "title": "混雑状況を床投影 東京メトロ実証",
-      "link": "https://news.yahoo.co.jp/pickup/6594110?source=rss",
+      "title": "インドネシアの火山で大規模噴火",
+      "link": "https://news.yahoo.co.jp/pickup/6594248?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-09-03"
+      "date": "2026-09-04"
     }
   ]
 }

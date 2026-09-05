@@ -1,36 +1,36 @@
 {
   "articles": [
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6594245?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6594342?source=rss",
       "category": "current",
-      "title": "屋久島町に土砂災害特別警報",
-      "link": "https://news.yahoo.co.jp/pickup/6594245?source=rss",
+      "title": "西-東日本 警報級大雨が続く恐れ",
+      "link": "https://news.yahoo.co.jp/pickup/6594342?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-09-04"
+      "date": "2026-09-05"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6594249?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6594363?source=rss",
       "category": "current",
-      "title": "屋久島町に特別警報 最新情報",
-      "link": "https://news.yahoo.co.jp/pickup/6594249?source=rss",
+      "title": "ネパール土石流から10日 2人救助",
+      "link": "https://news.yahoo.co.jp/pickup/6594363?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-09-04"
+      "date": "2026-09-05"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6594240?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6594335?source=rss",
       "category": "current",
-      "title": "関東～九州 大雨の終わり見えず",
-      "link": "https://news.yahoo.co.jp/pickup/6594240?source=rss",
+      "title": "29年に中低所得者へ現金給付検討",
+      "link": "https://news.yahoo.co.jp/pickup/6594335?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-09-04"
+      "date": "2026-09-05"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6594248?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6594367?source=rss",
       "category": "current",
-      "title": "インドネシアの火山で大規模噴火",
-      "link": "https://news.yahoo.co.jp/pickup/6594248?source=rss",
+      "title": "ケーキ店で放火か 2人死亡3人搬送",
+      "link": "https://news.yahoo.co.jp/pickup/6594367?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-09-04"
+      "date": "2026-09-05"
     }
   ]
 }

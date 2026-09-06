@@ -1,36 +1,36 @@
 {
   "articles": [
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6594342?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6594482?source=rss",
       "category": "current",
-      "title": "西-東日本 警報級大雨が続く恐れ",
-      "link": "https://news.yahoo.co.jp/pickup/6594342?source=rss",
+      "title": "東京・新島村に特別警報 最新情報",
+      "link": "https://news.yahoo.co.jp/pickup/6594482?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-09-05"
+      "date": "2026-09-06"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6594363?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6591369?source=rss",
       "category": "current",
-      "title": "ネパール土石流から10日 2人救助",
-      "link": "https://news.yahoo.co.jp/pickup/6594363?source=rss",
+      "title": "全国の鉄道・フライト 最新情報",
+      "link": "https://news.yahoo.co.jp/pickup/6591369?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-09-05"
+      "date": "2026-09-06"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6594335?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6594483?source=rss",
       "category": "current",
-      "title": "29年に中低所得者へ現金給付検討",
-      "link": "https://news.yahoo.co.jp/pickup/6594335?source=rss",
+      "title": "関東 朝の通勤・通学を大雨直撃か",
+      "link": "https://news.yahoo.co.jp/pickup/6594483?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-09-05"
+      "date": "2026-09-06"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6594367?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6594484?source=rss",
       "category": "current",
-      "title": "ケーキ店で放火か 2人死亡3人搬送",
-      "link": "https://news.yahoo.co.jp/pickup/6594367?source=rss",
+      "title": "アンダーパスで予防的規制 全国初",
+      "link": "https://news.yahoo.co.jp/pickup/6594484?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-09-05"
+      "date": "2026-09-06"
     }
   ]
 }

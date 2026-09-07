@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "id": "riken-https://www.riken.jp/press/2026/20260907_1/index.html",
+      "category": "biochem",
+      "title": "水溶液中のヘムタンパク質のスピン状態の観測に成功",
+      "link": "https://www.riken.jp/press/2026/20260907_1/index.html",
+      "source": "理化学研究所",
+      "date": "2026-09-07"
+    },
+    {
       "id": "riken-https://www.riken.jp/press/2026/20260902_1/index.html",
       "category": "biochem",
       "title": "自己免疫疾患の「原因変異」を見極める新技術を開発",
@@ -23,14 +31,6 @@
       "link": "https://www.riken.jp/press/2026/20260829_1/index.html",
       "source": "理化学研究所",
       "date": "2026-08-29"
-    },
-    {
-      "id": "riken-https://www.riken.jp/press/2026/20260828_1/index.html",
-      "category": "biochem",
-      "title": "RASがんの増殖シグナルを\"遠隔操作\"で遮断する新戦略",
-      "link": "https://www.riken.jp/press/2026/20260828_1/index.html",
-      "source": "理化学研究所",
-      "date": "2026-08-28"
     }
   ]
 }

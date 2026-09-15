@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "id": "riken-https://www.riken.jp/press/2026/20260914_2/index.html",
+      "category": "biochem",
+      "title": "酵母が放出するグルタチオンが微生物の相互作用を支える",
+      "link": "https://www.riken.jp/press/2026/20260914_2/index.html",
+      "source": "理化学研究所",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "riken-https://www.riken.jp/press/2026/20260914_1/index.html",
+      "category": "biochem",
+      "title": "見た目はそっくりでも細胞への侵入経路は違う",
+      "link": "https://www.riken.jp/press/2026/20260914_1/index.html",
+      "source": "理化学研究所",
+      "date": "2026-09-14"
+    },
+    {
       "id": "riken-https://www.riken.jp/press/2026/20260909_1/index.html",
       "category": "biochem",
       "title": "微生物群集をデザインして植物を強くする",
@@ -15,22 +31,6 @@
       "link": "https://www.riken.jp/press/2026/20260907_1/index.html",
       "source": "理化学研究所",
       "date": "2026-09-07"
-    },
-    {
-      "id": "riken-https://www.riken.jp/press/2026/20260902_1/index.html",
-      "category": "biochem",
-      "title": "自己免疫疾患の「原因変異」を見極める新技術を開発",
-      "link": "https://www.riken.jp/press/2026/20260902_1/index.html",
-      "source": "理化学研究所",
-      "date": "2026-09-02"
-    },
-    {
-      "id": "riken-https://www.riken.jp/press/2026/20260831_1/index.html",
-      "category": "biochem",
-      "title": "敗血症性肝障害を「タンパク質品質管理」の視点から解明",
-      "link": "https://www.riken.jp/press/2026/20260831_1/index.html",
-      "source": "理化学研究所",
-      "date": "2026-08-31"
     }
   ]
 }

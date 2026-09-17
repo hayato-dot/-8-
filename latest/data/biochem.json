@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "id": "riken-https://www.riken.jp/press/2026/20260917_1/index.html",
+      "category": "biochem",
+      "title": "細胞治療をより安全にする仕組み",
+      "link": "https://www.riken.jp/press/2026/20260917_1/index.html",
+      "source": "理化学研究所",
+      "date": "2026-09-17"
+    },
+    {
       "id": "riken-https://www.riken.jp/press/2026/20260914_2/index.html",
       "category": "biochem",
       "title": "酵母が放出するグルタチオンが微生物の相互作用を支える",
@@ -23,14 +31,6 @@
       "link": "https://www.riken.jp/press/2026/20260909_1/index.html",
       "source": "理化学研究所",
       "date": "2026-09-09"
-    },
-    {
-      "id": "riken-https://www.riken.jp/press/2026/20260907_1/index.html",
-      "category": "biochem",
-      "title": "水溶液中のヘムタンパク質のスピン状態の観測に成功",
-      "link": "https://www.riken.jp/press/2026/20260907_1/index.html",
-      "source": "理化学研究所",
-      "date": "2026-09-07"
     }
   ]
 }

@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "id": "riken-https://www.riken.jp/press/2026/20260925_2/index.html",
+      "category": "biochem",
+      "title": "ヒト膜タンパク質のダイナミックな動きを高感度でとらえる技術を開発",
+      "link": "https://www.riken.jp/press/2026/20260925_2/index.html",
+      "source": "理化学研究所",
+      "date": "2026-09-25"
+    },
+    {
       "id": "riken-https://www.riken.jp/press/2026/20260917_1/index.html",
       "category": "biochem",
       "title": "細胞治療をより安全にする仕組み",
@@ -23,14 +31,6 @@
       "link": "https://www.riken.jp/press/2026/20260914_1/index.html",
       "source": "理化学研究所",
       "date": "2026-09-14"
-    },
-    {
-      "id": "riken-https://www.riken.jp/press/2026/20260909_1/index.html",
-      "category": "biochem",
-      "title": "微生物群集をデザインして植物を強くする",
-      "link": "https://www.riken.jp/press/2026/20260909_1/index.html",
-      "source": "理化学研究所",
-      "date": "2026-09-09"
     }
   ]
 }

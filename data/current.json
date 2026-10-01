@@ -1,36 +1,36 @@
 {
   "articles": [
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6597017?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6597135?source=rss",
       "category": "current",
-      "title": "中国念頭 鉄鋼う回輸出監視強化へ",
-      "link": "https://news.yahoo.co.jp/pickup/6597017?source=rss",
-      "source": "Yahoo!ニュース",
-      "date": "2026-09-29"
-    },
-    {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6597025?source=rss",
-      "category": "current",
-      "title": "習近平政権 岩屋前外相を厚遇",
-      "link": "https://news.yahoo.co.jp/pickup/6597025?source=rss",
+      "title": "農相 地元自治体の予算カット発言",
+      "link": "https://news.yahoo.co.jp/pickup/6597135?source=rss",
       "source": "Yahoo!ニュース",
       "date": "2026-09-30"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6597020?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6597134?source=rss",
       "category": "current",
-      "title": "北朝鮮 地雷爆発は韓国の自作自演",
-      "link": "https://news.yahoo.co.jp/pickup/6597020?source=rss",
+      "title": "首相の所信表明演説 原案が判明",
+      "link": "https://news.yahoo.co.jp/pickup/6597134?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-09-29"
+      "date": "2026-09-30"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6597005?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6597138?source=rss",
       "category": "current",
-      "title": "道路でクマが車に複数回突進 破損",
-      "link": "https://news.yahoo.co.jp/pickup/6597005?source=rss",
+      "title": "テルアビブ便 乗客らが襲撃者制圧",
+      "link": "https://news.yahoo.co.jp/pickup/6597138?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-09-29"
+      "date": "2026-10-01"
+    },
+    {
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6597133?source=rss",
+      "category": "current",
+      "title": "トヨタ 祝日勤務の業界慣行見直し",
+      "link": "https://news.yahoo.co.jp/pickup/6597133?source=rss",
+      "source": "Yahoo!ニュース",
+      "date": "2026-09-30"
     }
   ]
 }

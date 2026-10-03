@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "id": "riken-https://www.riken.jp/press/2026/20261002_2/index.html",
+      "category": "biochem",
+      "title": "肝疾患の重症化に伴う腸内細菌叢の「シフト」を解明",
+      "link": "https://www.riken.jp/press/2026/20261002_2/index.html",
+      "source": "理化学研究所",
+      "date": "2026-10-02"
+    },
+    {
       "id": "riken-https://www.riken.jp/press/2026/20260925_4/index.html",
       "category": "biochem",
       "title": "微生物汚染リスクの低いラット精子凍結保存液を開発",
@@ -23,14 +31,6 @@
       "link": "https://www.riken.jp/press/2026/20260929_1/index.html",
       "source": "理化学研究所",
       "date": "2026-09-29"
-    },
-    {
-      "id": "riken-https://www.riken.jp/press/2026/20260925_2/index.html",
-      "category": "biochem",
-      "title": "ヒト膜タンパク質のダイナミックな動きを高感度でとらえる技術を開発",
-      "link": "https://www.riken.jp/press/2026/20260925_2/index.html",
-      "source": "理化学研究所",
-      "date": "2026-09-25"
     }
   ]
 }

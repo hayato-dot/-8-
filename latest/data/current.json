@@ -1,36 +1,36 @@
 {
   "articles": [
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6597340?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6597465?source=rss",
       "category": "current",
-      "title": "副首都となる要件 4道府県満たす",
-      "link": "https://news.yahoo.co.jp/pickup/6597340?source=rss",
-      "source": "Yahoo!ニュース",
-      "date": "2026-10-02"
-    },
-    {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6597352?source=rss",
-      "category": "current",
-      "title": "行楽日和 東京の雨記録ストップへ",
-      "link": "https://news.yahoo.co.jp/pickup/6597352?source=rss",
+      "title": "高市早苗氏 自民総裁選出から1年",
+      "link": "https://news.yahoo.co.jp/pickup/6597465?source=rss",
       "source": "Yahoo!ニュース",
       "date": "2026-10-03"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6597345?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6597463?source=rss",
       "category": "current",
-      "title": "人口水増し 市が交付税過剰受領か",
-      "link": "https://news.yahoo.co.jp/pickup/6597345?source=rss",
+      "title": "台風27号 小笠原諸島の近海へ北上",
+      "link": "https://news.yahoo.co.jp/pickup/6597463?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-10-02"
+      "date": "2026-10-03"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6597344?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6597462?source=rss",
       "category": "current",
-      "title": "機長刺した副操縦士 過去乗務禁止",
-      "link": "https://news.yahoo.co.jp/pickup/6597344?source=rss",
+      "title": "那覇遺体 強殺疑いで米兵を逮捕",
+      "link": "https://news.yahoo.co.jp/pickup/6597462?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-10-02"
+      "date": "2026-10-03"
+    },
+    {
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6597459?source=rss",
+      "category": "current",
+      "title": "釣り中の9歳が海に転落 心肺停止",
+      "link": "https://news.yahoo.co.jp/pickup/6597459?source=rss",
+      "source": "Yahoo!ニュース",
+      "date": "2026-10-03"
     }
   ]
 }

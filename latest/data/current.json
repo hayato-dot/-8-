@@ -1,34 +1,34 @@
 {
   "articles": [
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6597713?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6597835?source=rss",
       "category": "current",
-      "title": "日本の制裁受け 露が対抗措置表明",
-      "link": "https://news.yahoo.co.jp/pickup/6597713?source=rss",
+      "title": "実質賃金10年ぶり8カ月連続プラス",
+      "link": "https://news.yahoo.co.jp/pickup/6597835?source=rss",
+      "source": "Yahoo!ニュース",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6597815?source=rss",
+      "category": "current",
+      "title": "攻撃で情報漏洩被害 今年500件超",
+      "link": "https://news.yahoo.co.jp/pickup/6597815?source=rss",
       "source": "Yahoo!ニュース",
       "date": "2026-10-06"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6597702?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6597825?source=rss",
       "category": "current",
-      "title": "サウジ 集団防衛態勢へ直ちに移行",
-      "link": "https://news.yahoo.co.jp/pickup/6597702?source=rss",
-      "source": "Yahoo!ニュース",
-      "date": "2026-10-05"
-    },
-    {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6597706?source=rss",
-      "category": "current",
-      "title": "男性を襲い腕時計奪う 男2人逃走",
-      "link": "https://news.yahoo.co.jp/pickup/6597706?source=rss",
+      "title": "独情報機関の元長官 スパイ容疑",
+      "link": "https://news.yahoo.co.jp/pickup/6597825?source=rss",
       "source": "Yahoo!ニュース",
       "date": "2026-10-06"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6597717?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6597826?source=rss",
       "category": "current",
-      "title": "那覇強殺事件 短時間で犯行か",
-      "link": "https://news.yahoo.co.jp/pickup/6597717?source=rss",
+      "title": "水泳授業 性的被害相談把握も委託",
+      "link": "https://news.yahoo.co.jp/pickup/6597826?source=rss",
       "source": "Yahoo!ニュース",
       "date": "2026-10-06"
     }

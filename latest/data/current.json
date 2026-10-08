@@ -1,36 +1,36 @@
 {
   "articles": [
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6597835?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6597955?source=rss",
       "category": "current",
-      "title": "実質賃金10年ぶり8カ月連続プラス",
-      "link": "https://news.yahoo.co.jp/pickup/6597835?source=rss",
+      "title": "ビール大手を調査 経営層関与焦点",
+      "link": "https://news.yahoo.co.jp/pickup/6597955?source=rss",
+      "source": "Yahoo!ニュース",
+      "date": "2026-10-08"
+    },
+    {
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6597945?source=rss",
+      "category": "current",
+      "title": "外国人材 都市部への転職が増加",
+      "link": "https://news.yahoo.co.jp/pickup/6597945?source=rss",
       "source": "Yahoo!ニュース",
       "date": "2026-10-07"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6597815?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6597952?source=rss",
       "category": "current",
-      "title": "攻撃で情報漏洩被害 今年500件超",
-      "link": "https://news.yahoo.co.jp/pickup/6597815?source=rss",
+      "title": "八田與一容疑者目撃情報 関東で増",
+      "link": "https://news.yahoo.co.jp/pickup/6597952?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-10-06"
+      "date": "2026-10-08"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6597825?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6597956?source=rss",
       "category": "current",
-      "title": "独情報機関の元長官 スパイ容疑",
-      "link": "https://news.yahoo.co.jp/pickup/6597825?source=rss",
+      "title": "意識回復の米死刑囚に重い症状",
+      "link": "https://news.yahoo.co.jp/pickup/6597956?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-10-06"
-    },
-    {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6597826?source=rss",
-      "category": "current",
-      "title": "水泳授業 性的被害相談把握も委託",
-      "link": "https://news.yahoo.co.jp/pickup/6597826?source=rss",
-      "source": "Yahoo!ニュース",
-      "date": "2026-10-06"
+      "date": "2026-10-08"
     }
   ]
 }

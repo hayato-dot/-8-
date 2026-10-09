@@ -1,34 +1,34 @@
 {
   "articles": [
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6597955?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6598094?source=rss",
       "category": "current",
-      "title": "ビール大手を調査 経営層関与焦点",
-      "link": "https://news.yahoo.co.jp/pickup/6597955?source=rss",
+      "title": "政府 消費減税法案を閣議決定",
+      "link": "https://news.yahoo.co.jp/pickup/6598094?source=rss",
+      "source": "Yahoo!ニュース",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6598088?source=rss",
+      "category": "current",
+      "title": "簗氏予算カット発言 収束見通せず",
+      "link": "https://news.yahoo.co.jp/pickup/6598088?source=rss",
+      "source": "Yahoo!ニュース",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6598082?source=rss",
+      "category": "current",
+      "title": "米国防総省 銃殺刑を生配信へ",
+      "link": "https://news.yahoo.co.jp/pickup/6598082?source=rss",
       "source": "Yahoo!ニュース",
       "date": "2026-10-08"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6597945?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6598077?source=rss",
       "category": "current",
-      "title": "外国人材 都市部への転職が増加",
-      "link": "https://news.yahoo.co.jp/pickup/6597945?source=rss",
-      "source": "Yahoo!ニュース",
-      "date": "2026-10-07"
-    },
-    {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6597952?source=rss",
-      "category": "current",
-      "title": "八田與一容疑者目撃情報 関東で増",
-      "link": "https://news.yahoo.co.jp/pickup/6597952?source=rss",
-      "source": "Yahoo!ニュース",
-      "date": "2026-10-08"
-    },
-    {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6597956?source=rss",
-      "category": "current",
-      "title": "意識回復の米死刑囚に重い症状",
-      "link": "https://news.yahoo.co.jp/pickup/6597956?source=rss",
+      "title": "露でペスト疑い 接触者に異常なし",
+      "link": "https://news.yahoo.co.jp/pickup/6598077?source=rss",
       "source": "Yahoo!ニュース",
       "date": "2026-10-08"
     }

@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "id": "riken-https://www.riken.jp/press/2026/20261008_1/index.html",
+      "category": "biochem",
+      "title": "麻酔がもたらす脳の「時空間的孤立」",
+      "link": "https://www.riken.jp/press/2026/20261008_1/index.html",
+      "source": "理化学研究所",
+      "date": "2026-10-08"
+    },
+    {
       "id": "riken-https://www.riken.jp/press/2026/20261002_2/index.html",
       "category": "biochem",
       "title": "肝疾患の重症化に伴う腸内細菌叢の「シフト」を解明",
@@ -21,14 +29,6 @@
       "category": "biochem",
       "title": "がん細胞が生む一酸化炭素から抗がん剤合成に成功",
       "link": "https://www.riken.jp/press/2026/20260929_2/index.html",
-      "source": "理化学研究所",
-      "date": "2026-09-29"
-    },
-    {
-      "id": "riken-https://www.riken.jp/press/2026/20260929_1/index.html",
-      "category": "biochem",
-      "title": "6種の遺伝子組換えを可視化する万能マウスを開発",
-      "link": "https://www.riken.jp/press/2026/20260929_1/index.html",
       "source": "理化学研究所",
       "date": "2026-09-29"
     }

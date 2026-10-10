@@ -1,36 +1,36 @@
 {
   "articles": [
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6598094?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6598212?source=rss",
       "category": "current",
-      "title": "政府 消費減税法案を閣議決定",
-      "link": "https://news.yahoo.co.jp/pickup/6598094?source=rss",
+      "title": "米がICC制裁 首相「深く懸念」",
+      "link": "https://news.yahoo.co.jp/pickup/6598212?source=rss",
       "source": "Yahoo!ニュース",
       "date": "2026-10-09"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6598088?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6598220?source=rss",
       "category": "current",
-      "title": "簗氏予算カット発言 収束見通せず",
-      "link": "https://news.yahoo.co.jp/pickup/6598088?source=rss",
+      "title": "パナマでM7.7 ホテルなどが倒壊",
+      "link": "https://news.yahoo.co.jp/pickup/6598220?source=rss",
+      "source": "Yahoo!ニュース",
+      "date": "2026-10-10"
+    },
+    {
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6598223?source=rss",
+      "category": "current",
+      "title": "簗氏巡り 自民に辞任不可避の声も",
+      "link": "https://news.yahoo.co.jp/pickup/6598223?source=rss",
+      "source": "Yahoo!ニュース",
+      "date": "2026-10-10"
+    },
+    {
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6598213?source=rss",
+      "category": "current",
+      "title": "カルテル疑惑 経営トップに報告か",
+      "link": "https://news.yahoo.co.jp/pickup/6598213?source=rss",
       "source": "Yahoo!ニュース",
       "date": "2026-10-09"
-    },
-    {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6598082?source=rss",
-      "category": "current",
-      "title": "米国防総省 銃殺刑を生配信へ",
-      "link": "https://news.yahoo.co.jp/pickup/6598082?source=rss",
-      "source": "Yahoo!ニュース",
-      "date": "2026-10-08"
-    },
-    {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6598077?source=rss",
-      "category": "current",
-      "title": "露でペスト疑い 接触者に異常なし",
-      "link": "https://news.yahoo.co.jp/pickup/6598077?source=rss",
-      "source": "Yahoo!ニュース",
-      "date": "2026-10-08"
     }
   ]
 }

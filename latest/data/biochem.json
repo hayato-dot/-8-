@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "id": "riken-https://www.riken.jp/press/2026/20261009_1/index.html",
+      "category": "biochem",
+      "title": "細胞の分子スイッチが次々と活性化を呼び込む仕組み",
+      "link": "https://www.riken.jp/press/2026/20261009_1/index.html",
+      "source": "理化学研究所",
+      "date": "2026-10-09"
+    },
+    {
       "id": "riken-https://www.riken.jp/press/2026/20261008_1/index.html",
       "category": "biochem",
       "title": "麻酔がもたらす脳の「時空間的孤立」",
@@ -21,14 +29,6 @@
       "category": "biochem",
       "title": "微生物汚染リスクの低いラット精子凍結保存液を開発",
       "link": "https://www.riken.jp/press/2026/20260925_4/index.html",
-      "source": "理化学研究所",
-      "date": "2026-09-29"
-    },
-    {
-      "id": "riken-https://www.riken.jp/press/2026/20260929_2/index.html",
-      "category": "biochem",
-      "title": "がん細胞が生む一酸化炭素から抗がん剤合成に成功",
-      "link": "https://www.riken.jp/press/2026/20260929_2/index.html",
       "source": "理化学研究所",
       "date": "2026-09-29"
     }

@@ -1,36 +1,36 @@
 {
   "articles": [
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6598212?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6598321?source=rss",
       "category": "current",
-      "title": "米がICC制裁 首相「深く懸念」",
-      "link": "https://news.yahoo.co.jp/pickup/6598212?source=rss",
-      "source": "Yahoo!ニュース",
-      "date": "2026-10-09"
-    },
-    {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6598220?source=rss",
-      "category": "current",
-      "title": "パナマでM7.7 ホテルなどが倒壊",
-      "link": "https://news.yahoo.co.jp/pickup/6598220?source=rss",
+      "title": "サウジ首都の空港に攻撃 12人死亡",
+      "link": "https://news.yahoo.co.jp/pickup/6598321?source=rss",
       "source": "Yahoo!ニュース",
       "date": "2026-10-10"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6598223?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6598326?source=rss",
       "category": "current",
-      "title": "簗氏巡り 自民に辞任不可避の声も",
-      "link": "https://news.yahoo.co.jp/pickup/6598223?source=rss",
+      "title": "新聞購読率 初めて5割を下回る",
+      "link": "https://news.yahoo.co.jp/pickup/6598326?source=rss",
       "source": "Yahoo!ニュース",
       "date": "2026-10-10"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6598213?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6598331?source=rss",
       "category": "current",
-      "title": "カルテル疑惑 経営トップに報告か",
-      "link": "https://news.yahoo.co.jp/pickup/6598213?source=rss",
+      "title": "銃殺刑の配信 トランプ氏が判断へ",
+      "link": "https://news.yahoo.co.jp/pickup/6598331?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-10-09"
+      "date": "2026-10-11"
+    },
+    {
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6598316?source=rss",
+      "category": "current",
+      "title": "障害者50人 9カ月で雇用打ち切り",
+      "link": "https://news.yahoo.co.jp/pickup/6598316?source=rss",
+      "source": "Yahoo!ニュース",
+      "date": "2026-10-10"
     }
   ]
 }

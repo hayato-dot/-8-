@@ -1,36 +1,36 @@
 {
   "articles": [
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6598321?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6598468?source=rss",
       "category": "current",
-      "title": "サウジ首都の空港に攻撃 12人死亡",
-      "link": "https://news.yahoo.co.jp/pickup/6598321?source=rss",
+      "title": "北再び発射 弾道ミサイルの可能性",
+      "link": "https://news.yahoo.co.jp/pickup/6598468?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-10-10"
+      "date": "2026-10-12"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6598326?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6598456?source=rss",
       "category": "current",
-      "title": "新聞購読率 初めて5割を下回る",
-      "link": "https://news.yahoo.co.jp/pickup/6598326?source=rss",
-      "source": "Yahoo!ニュース",
-      "date": "2026-10-10"
-    },
-    {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6598331?source=rss",
-      "category": "current",
-      "title": "銃殺刑の配信 トランプ氏が判断へ",
-      "link": "https://news.yahoo.co.jp/pickup/6598331?source=rss",
+      "title": "サウジの安保が悪化 米国支援鈍く",
+      "link": "https://news.yahoo.co.jp/pickup/6598456?source=rss",
       "source": "Yahoo!ニュース",
       "date": "2026-10-11"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6598316?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6598462?source=rss",
       "category": "current",
-      "title": "障害者50人 9カ月で雇用打ち切り",
-      "link": "https://news.yahoo.co.jp/pickup/6598316?source=rss",
+      "title": "縛られた遺体 窃盗疑いの妹関与か",
+      "link": "https://news.yahoo.co.jp/pickup/6598462?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-10-10"
+      "date": "2026-10-11"
+    },
+    {
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6598454?source=rss",
+      "category": "current",
+      "title": "マツタケ狩りの男性 滑落し死亡",
+      "link": "https://news.yahoo.co.jp/pickup/6598454?source=rss",
+      "source": "Yahoo!ニュース",
+      "date": "2026-10-11"
     }
   ]
 }

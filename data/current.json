@@ -1,36 +1,36 @@
 {
   "articles": [
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6598682?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6598798?source=rss",
       "category": "current",
-      "title": "農相の進退 首相が14日にも判断へ",
-      "link": "https://news.yahoo.co.jp/pickup/6598682?source=rss",
-      "source": "Yahoo!ニュース",
-      "date": "2026-10-13"
-    },
-    {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6598686?source=rss",
-      "category": "current",
-      "title": "大阪にアンソロ社データ拠点 調整",
-      "link": "https://news.yahoo.co.jp/pickup/6598686?source=rss",
+      "title": "農相辞任「当然」地元有権者怒り",
+      "link": "https://news.yahoo.co.jp/pickup/6598798?source=rss",
       "source": "Yahoo!ニュース",
       "date": "2026-10-14"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6598689?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6598809?source=rss",
       "category": "current",
-      "title": "横浜市で住宅火災 2遺体見つかる",
-      "link": "https://news.yahoo.co.jp/pickup/6598689?source=rss",
+      "title": "AIが自己改善「超知能」に危機感",
+      "link": "https://news.yahoo.co.jp/pickup/6598809?source=rss",
       "source": "Yahoo!ニュース",
       "date": "2026-10-14"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6598683?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6598805?source=rss",
       "category": "current",
-      "title": "写真大手ゲッティ 米破産法申請へ",
-      "link": "https://news.yahoo.co.jp/pickup/6598683?source=rss",
+      "title": "米上場の半導体株 下落止まらず",
+      "link": "https://news.yahoo.co.jp/pickup/6598805?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-10-13"
+      "date": "2026-10-14"
+    },
+    {
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6598797?source=rss",
+      "category": "current",
+      "title": "ネトフリ 従業員約1000人を削減へ",
+      "link": "https://news.yahoo.co.jp/pickup/6598797?source=rss",
+      "source": "Yahoo!ニュース",
+      "date": "2026-10-14"
     }
   ]
 }

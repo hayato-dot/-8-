@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "id": "riken-https://www.riken.jp/press/2026/20261016_1/index.html",
+      "category": "biochem",
+      "title": "年上のきょうだい数と幼児の腸内細菌タイプの関連を発見",
+      "link": "https://www.riken.jp/press/2026/20261016_1/index.html",
+      "source": "理化学研究所",
+      "date": "2026-10-16"
+    },
+    {
       "id": "riken-https://www.riken.jp/press/2026/20261013_1/index.html",
       "category": "biochem",
       "title": "生命のエネルギー通貨ATPをつくる「原始的酵素モデル」を構築",
@@ -23,14 +31,6 @@
       "link": "https://www.riken.jp/press/2026/20261008_1/index.html",
       "source": "理化学研究所",
       "date": "2026-10-08"
-    },
-    {
-      "id": "riken-https://www.riken.jp/press/2026/20261002_2/index.html",
-      "category": "biochem",
-      "title": "肝疾患の重症化に伴う腸内細菌叢の「シフト」を解明",
-      "link": "https://www.riken.jp/press/2026/20261002_2/index.html",
-      "source": "理化学研究所",
-      "date": "2026-10-02"
     }
   ]
 }

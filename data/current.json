@@ -1,36 +1,36 @@
 {
   "articles": [
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6599539?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6599654?source=rss",
       "category": "current",
-      "title": "大阪・名古屋・東京 30℃以上予想",
-      "link": "https://news.yahoo.co.jp/pickup/6599539?source=rss",
+      "title": "台風 23日から沖縄先島諸島に接近",
+      "link": "https://news.yahoo.co.jp/pickup/6599654?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-10-20"
+      "date": "2026-10-21"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6599541?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6599660?source=rss",
       "category": "current",
-      "title": "支援金の対象者の案 首相が答弁",
-      "link": "https://news.yahoo.co.jp/pickup/6599541?source=rss",
+      "title": "G7TV会議を首相欠席 与野党波紋",
+      "link": "https://news.yahoo.co.jp/pickup/6599660?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-10-20"
+      "date": "2026-10-21"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6599543?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6599650?source=rss",
       "category": "current",
-      "title": "SpaceXとテスラ 経営統合を検討",
-      "link": "https://news.yahoo.co.jp/pickup/6599543?source=rss",
+      "title": "PHPに欠陥 欧州各国でサイト遮断",
+      "link": "https://news.yahoo.co.jp/pickup/6599650?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-10-20"
+      "date": "2026-10-21"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6599538?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6599651?source=rss",
       "category": "current",
-      "title": "車が歩道に突っ込む 歩行者が死亡",
-      "link": "https://news.yahoo.co.jp/pickup/6599538?source=rss",
+      "title": "PHPの脆弱性 米OpenAIのAIで発見",
+      "link": "https://news.yahoo.co.jp/pickup/6599651?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-10-20"
+      "date": "2026-10-21"
     }
   ]
 }

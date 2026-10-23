@@ -1,36 +1,36 @@
 {
   "articles": [
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6599654?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6599768?source=rss",
       "category": "current",
-      "title": "台風 23日から沖縄先島諸島に接近",
-      "link": "https://news.yahoo.co.jp/pickup/6599654?source=rss",
+      "title": "食料品消費税1% 買い物は変わるか",
+      "link": "https://news.yahoo.co.jp/pickup/6599768?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-10-21"
+      "date": "2026-10-22"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6599660?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6599763?source=rss",
       "category": "current",
-      "title": "G7TV会議を首相欠席 与野党波紋",
-      "link": "https://news.yahoo.co.jp/pickup/6599660?source=rss",
+      "title": "デジ庁HPの問い合わせ内容漏洩か",
+      "link": "https://news.yahoo.co.jp/pickup/6599763?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-10-21"
+      "date": "2026-10-22"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6599650?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6599772?source=rss",
       "category": "current",
-      "title": "PHPに欠陥 欧州各国でサイト遮断",
-      "link": "https://news.yahoo.co.jp/pickup/6599650?source=rss",
+      "title": "「PHP」暮らし直撃 徹夜の社員も",
+      "link": "https://news.yahoo.co.jp/pickup/6599772?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-10-21"
+      "date": "2026-10-22"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6599651?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6599759?source=rss",
       "category": "current",
-      "title": "PHPの脆弱性 米OpenAIのAIで発見",
-      "link": "https://news.yahoo.co.jp/pickup/6599651?source=rss",
+      "title": "大成建設・鹿島 国交省が処分方針",
+      "link": "https://news.yahoo.co.jp/pickup/6599759?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-10-21"
+      "date": "2026-10-22"
     }
   ]
 }

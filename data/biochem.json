@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "id": "riken-https://www.riken.jp/press/2026/20261023_1/index.html",
+      "category": "biochem",
+      "title": "抗真菌物質が酵母の細胞壁を厚くする仕組みを解明",
+      "link": "https://www.riken.jp/press/2026/20261023_1/index.html",
+      "source": "理化学研究所",
+      "date": "2026-10-23"
+    },
+    {
       "id": "riken-https://www.riken.jp/press/2026/20261016_1/index.html",
       "category": "biochem",
       "title": "年上のきょうだい数と幼児の腸内細菌タイプの関連を発見",
@@ -23,14 +31,6 @@
       "link": "https://www.riken.jp/press/2026/20261009_1/index.html",
       "source": "理化学研究所",
       "date": "2026-10-09"
-    },
-    {
-      "id": "riken-https://www.riken.jp/press/2026/20261008_1/index.html",
-      "category": "biochem",
-      "title": "麻酔がもたらす脳の「時空間的孤立」",
-      "link": "https://www.riken.jp/press/2026/20261008_1/index.html",
-      "source": "理化学研究所",
-      "date": "2026-10-08"
     }
   ]
 }

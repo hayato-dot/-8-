@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "id": "riken-https://www.riken.jp/press/2026/20261026_1/index.html",
+      "category": "biochem",
+      "title": "多細胞集団によるキラリティの増幅",
+      "link": "https://www.riken.jp/press/2026/20261026_1/index.html",
+      "source": "理化学研究所",
+      "date": "2026-10-26"
+    },
+    {
       "id": "riken-https://www.riken.jp/press/2026/20261023_1/index.html",
       "category": "biochem",
       "title": "抗真菌物質が酵母の細胞壁を厚くする仕組みを解明",
@@ -23,14 +31,6 @@
       "link": "https://www.riken.jp/press/2026/20261013_1/index.html",
       "source": "理化学研究所",
       "date": "2026-10-13"
-    },
-    {
-      "id": "riken-https://www.riken.jp/press/2026/20261009_1/index.html",
-      "category": "biochem",
-      "title": "細胞の分子スイッチが次々と活性化を呼び込む仕組み",
-      "link": "https://www.riken.jp/press/2026/20261009_1/index.html",
-      "source": "理化学研究所",
-      "date": "2026-10-09"
     }
   ]
 }

@@ -1,36 +1,36 @@
 {
   "articles": [
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6600255?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6600367?source=rss",
       "category": "current",
-      "title": "米中間選挙 下院は民主党優勢か",
-      "link": "https://news.yahoo.co.jp/pickup/6600255?source=rss",
-      "source": "Yahoo!ニュース",
-      "date": "2026-10-26"
-    },
-    {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6600260?source=rss",
-      "category": "current",
-      "title": "茨城県教委 国に誤った情報伝達",
-      "link": "https://news.yahoo.co.jp/pickup/6600260?source=rss",
-      "source": "Yahoo!ニュース",
-      "date": "2026-10-26"
-    },
-    {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6600266?source=rss",
-      "category": "current",
-      "title": "米大統領 賞ならずノルウェー罵倒",
-      "link": "https://news.yahoo.co.jp/pickup/6600266?source=rss",
+      "title": "熊本地震3カ月 千人超なお避難所",
+      "link": "https://news.yahoo.co.jp/pickup/6600367?source=rss",
       "source": "Yahoo!ニュース",
       "date": "2026-10-27"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6600256?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6600375?source=rss",
       "category": "current",
-      "title": "ながら運転で子奪われ10年 父は今",
-      "link": "https://news.yahoo.co.jp/pickup/6600256?source=rss",
+      "title": "サイバー攻撃 サイト経由型が急増",
+      "link": "https://news.yahoo.co.jp/pickup/6600375?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-10-26"
+      "date": "2026-10-27"
+    },
+    {
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6600370?source=rss",
+      "category": "current",
+      "title": "ボルソナロ氏亡命か 米認める方針",
+      "link": "https://news.yahoo.co.jp/pickup/6600370?source=rss",
+      "source": "Yahoo!ニュース",
+      "date": "2026-10-27"
+    },
+    {
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6600381?source=rss",
+      "category": "current",
+      "title": "過疎指定ありがたい 町長語る事情",
+      "link": "https://news.yahoo.co.jp/pickup/6600381?source=rss",
+      "source": "Yahoo!ニュース",
+      "date": "2026-10-28"
     }
   ]
 }

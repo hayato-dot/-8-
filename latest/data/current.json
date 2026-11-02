@@ -1,36 +1,36 @@
 {
   "articles": [
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6600898?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6601016?source=rss",
       "category": "current",
-      "title": "米大統領 造反・不祥事議員を称賛",
-      "link": "https://news.yahoo.co.jp/pickup/6600898?source=rss",
+      "title": "北への武器 香港の密輸集団が暗躍",
+      "link": "https://news.yahoo.co.jp/pickup/6601016?source=rss",
       "source": "Yahoo!ニュース",
       "date": "2026-11-01"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6600897?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6601024?source=rss",
       "category": "current",
-      "title": "GMO攻撃者 被害者サイト開設か",
-      "link": "https://news.yahoo.co.jp/pickup/6600897?source=rss",
-      "source": "Yahoo!ニュース",
-      "date": "2026-10-31"
-    },
-    {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6600883?source=rss",
-      "category": "current",
-      "title": "モスクワでテロ計画 米が露に警告",
-      "link": "https://news.yahoo.co.jp/pickup/6600883?source=rss",
-      "source": "Yahoo!ニュース",
-      "date": "2026-10-31"
-    },
-    {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6600899?source=rss",
-      "category": "current",
-      "title": "学校で突然言葉出ず 悩んだ吃音",
-      "link": "https://news.yahoo.co.jp/pickup/6600899?source=rss",
+      "title": "米大統領 接戦州集会で最後の訴え",
+      "link": "https://news.yahoo.co.jp/pickup/6601024?source=rss",
       "source": "Yahoo!ニュース",
       "date": "2026-11-01"
+    },
+    {
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6601023?source=rss",
+      "category": "current",
+      "title": "スペイン事故 邦人1人の死亡確認",
+      "link": "https://news.yahoo.co.jp/pickup/6601023?source=rss",
+      "source": "Yahoo!ニュース",
+      "date": "2026-11-01"
+    },
+    {
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6601029?source=rss",
+      "category": "current",
+      "title": "刃物持った男が立てこもる 東海市",
+      "link": "https://news.yahoo.co.jp/pickup/6601029?source=rss",
+      "source": "Yahoo!ニュース",
+      "date": "2026-11-02"
     }
   ]
 }

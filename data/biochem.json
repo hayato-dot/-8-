@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "id": "riken-https://www.riken.jp/press/2026/20261102_1/index.html",
+      "category": "biochem",
+      "title": "生きた細胞内の成分を三次元動画で捉える顕微鏡を開発",
+      "link": "https://www.riken.jp/press/2026/20261102_1/index.html",
+      "source": "理化学研究所",
+      "date": "2026-11-02"
+    },
+    {
       "id": "riken-https://www.riken.jp/press/2026/20261029_2/index.html",
       "category": "biochem",
       "title": "植物ホルモンが「働く場所」を操る",
@@ -23,14 +31,6 @@
       "link": "https://www.riken.jp/press/2026/20261023_1/index.html",
       "source": "理化学研究所",
       "date": "2026-10-23"
-    },
-    {
-      "id": "riken-https://www.riken.jp/press/2026/20261016_1/index.html",
-      "category": "biochem",
-      "title": "年上のきょうだい数と幼児の腸内細菌タイプの関連を発見",
-      "link": "https://www.riken.jp/press/2026/20261016_1/index.html",
-      "source": "理化学研究所",
-      "date": "2026-10-16"
     }
   ]
 }

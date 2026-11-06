@@ -1,36 +1,36 @@
 {
   "articles": [
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6601372?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6601491?source=rss",
       "category": "current",
-      "title": "サイバー救援隊を創設へ 政府案",
-      "link": "https://news.yahoo.co.jp/pickup/6601372?source=rss",
-      "source": "Yahoo!ニュース",
-      "date": "2026-11-04"
-    },
-    {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6601387?source=rss",
-      "category": "current",
-      "title": "仏銀行サイバー攻撃 177億円流出",
-      "link": "https://news.yahoo.co.jp/pickup/6601387?source=rss",
+      "title": "ルビオ長官 辞任検討の報道否定",
+      "link": "https://news.yahoo.co.jp/pickup/6601491?source=rss",
       "source": "Yahoo!ニュース",
       "date": "2026-11-05"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6601386?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6601493?source=rss",
       "category": "current",
-      "title": "米民主党 次のリーダー不在課題",
-      "link": "https://news.yahoo.co.jp/pickup/6601386?source=rss",
+      "title": "9月の実質賃金 9カ月連続プラス",
+      "link": "https://news.yahoo.co.jp/pickup/6601493?source=rss",
       "source": "Yahoo!ニュース",
       "date": "2026-11-05"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6601377?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6601490?source=rss",
       "category": "current",
-      "title": "幹部逮捕 川崎市役所を家宅捜索",
-      "link": "https://news.yahoo.co.jp/pickup/6601377?source=rss",
+      "title": "サイバー攻撃で強制遮断検討 政府",
+      "link": "https://news.yahoo.co.jp/pickup/6601490?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-11-04"
+      "date": "2026-11-05"
+    },
+    {
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6601497?source=rss",
+      "category": "current",
+      "title": "日経平均 一時4000円以上値下がり",
+      "link": "https://news.yahoo.co.jp/pickup/6601497?source=rss",
+      "source": "Yahoo!ニュース",
+      "date": "2026-11-06"
     }
   ]
 }

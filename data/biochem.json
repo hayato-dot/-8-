@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "id": "riken-https://www.riken.jp/press/2026/20261106_3/index.html",
+      "category": "biochem",
+      "title": "機械学習で酵素の強さと能力の高さを両立化",
+      "link": "https://www.riken.jp/press/2026/20261106_3/index.html",
+      "source": "理化学研究所",
+      "date": "2026-11-06"
+    },
+    {
       "id": "riken-https://www.riken.jp/press/2026/20261106_1/index.html",
       "category": "biochem",
       "title": "生活習慣と健康・慢性疾患をつなぐ腸内細菌の「対照的な2つの媒介軸」を発見",
@@ -23,14 +31,6 @@
       "link": "https://www.riken.jp/press/2026/20261029_2/index.html",
       "source": "理化学研究所",
       "date": "2026-10-29"
-    },
-    {
-      "id": "riken-https://www.riken.jp/press/2026/20261026_1/index.html",
-      "category": "biochem",
-      "title": "多細胞集団によるキラリティの増幅",
-      "link": "https://www.riken.jp/press/2026/20261026_1/index.html",
-      "source": "理化学研究所",
-      "date": "2026-10-26"
     }
   ]
 }

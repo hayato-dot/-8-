@@ -1,36 +1,36 @@
 {
   "articles": [
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6601606?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6601732?source=rss",
       "category": "current",
-      "title": "米民主党 AI規制法案を多数提出へ",
-      "link": "https://news.yahoo.co.jp/pickup/6601606?source=rss",
-      "source": "Yahoo!ニュース",
-      "date": "2026-11-06"
-    },
-    {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6601609?source=rss",
-      "category": "current",
-      "title": "中学生4割が外国人増否定的 調査",
-      "link": "https://news.yahoo.co.jp/pickup/6601609?source=rss",
+      "title": "愛知県で震度5強観測 約30年ぶり",
+      "link": "https://news.yahoo.co.jp/pickup/6601732?source=rss",
       "source": "Yahoo!ニュース",
       "date": "2026-11-07"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6601614?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6601737?source=rss",
       "category": "current",
-      "title": "テスラ サイバートラック生産縮小",
-      "link": "https://news.yahoo.co.jp/pickup/6601614?source=rss",
+      "title": "あす都心11℃予想 12月下旬並み",
+      "link": "https://news.yahoo.co.jp/pickup/6601737?source=rss",
       "source": "Yahoo!ニュース",
       "date": "2026-11-07"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6601596?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6601744?source=rss",
       "category": "current",
-      "title": "メーガン妃父 ポルノ所持疑い逮捕",
-      "link": "https://news.yahoo.co.jp/pickup/6601596?source=rss",
+      "title": "東北新幹線運転再開 ダイヤは乱れ",
+      "link": "https://news.yahoo.co.jp/pickup/6601744?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-11-06"
+      "date": "2026-11-08"
+    },
+    {
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6601734?source=rss",
+      "category": "current",
+      "title": "互いに譲らず 冷え切った日中関係",
+      "link": "https://news.yahoo.co.jp/pickup/6601734?source=rss",
+      "source": "Yahoo!ニュース",
+      "date": "2026-11-07"
     }
   ]
 }

@@ -1,36 +1,36 @@
 {
   "articles": [
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6601732?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6601877?source=rss",
       "category": "current",
-      "title": "愛知県で震度5強観測 約30年ぶり",
-      "link": "https://news.yahoo.co.jp/pickup/6601732?source=rss",
+      "title": "7/30に過去最大円買い介入7.9兆円",
+      "link": "https://news.yahoo.co.jp/pickup/6601877?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-11-07"
+      "date": "2026-11-09"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6601737?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6601868?source=rss",
       "category": "current",
-      "title": "あす都心11℃予想 12月下旬並み",
-      "link": "https://news.yahoo.co.jp/pickup/6601737?source=rss",
-      "source": "Yahoo!ニュース",
-      "date": "2026-11-07"
-    },
-    {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6601744?source=rss",
-      "category": "current",
-      "title": "東北新幹線運転再開 ダイヤは乱れ",
-      "link": "https://news.yahoo.co.jp/pickup/6601744?source=rss",
+      "title": "CEOと工作員の関係 NVIDIA調査",
+      "link": "https://news.yahoo.co.jp/pickup/6601868?source=rss",
       "source": "Yahoo!ニュース",
       "date": "2026-11-08"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6601734?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6601876?source=rss",
       "category": "current",
-      "title": "互いに譲らず 冷え切った日中関係",
-      "link": "https://news.yahoo.co.jp/pickup/6601734?source=rss",
+      "title": "パラグライダー落下か 72歳死亡",
+      "link": "https://news.yahoo.co.jp/pickup/6601876?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-11-07"
+      "date": "2026-11-09"
+    },
+    {
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6601864?source=rss",
+      "category": "current",
+      "title": "舎人ライナー 資金不足陥る可能性",
+      "link": "https://news.yahoo.co.jp/pickup/6601864?source=rss",
+      "source": "Yahoo!ニュース",
+      "date": "2026-11-08"
     }
   ]
 }

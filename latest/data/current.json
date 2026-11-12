@@ -1,36 +1,36 @@
 {
   "articles": [
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6602125?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6602258?source=rss",
       "category": "current",
-      "title": "国際情勢は歴史的変革期 政府方針",
-      "link": "https://news.yahoo.co.jp/pickup/6602125?source=rss",
+      "title": "減税法案 支援金対象は交渉切り札",
+      "link": "https://news.yahoo.co.jp/pickup/6602258?source=rss",
+      "source": "Yahoo!ニュース",
+      "date": "2026-11-12"
+    },
+    {
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6602243?source=rss",
+      "category": "current",
+      "title": "懸命に働くは美徳51% 読売調査",
+      "link": "https://news.yahoo.co.jp/pickup/6602243?source=rss",
       "source": "Yahoo!ニュース",
       "date": "2026-11-11"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6602121?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6602271?source=rss",
       "category": "current",
-      "title": "北海道で史上最も早い-20℃以下",
-      "link": "https://news.yahoo.co.jp/pickup/6602121?source=rss",
+      "title": "CEOの解任可否を決定へ NVIDIA",
+      "link": "https://news.yahoo.co.jp/pickup/6602271?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-11-11"
+      "date": "2026-11-12"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6602128?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6602273?source=rss",
       "category": "current",
-      "title": "ダンプカー衝突 自転車の男性重体",
-      "link": "https://news.yahoo.co.jp/pickup/6602128?source=rss",
+      "title": "踏切内に車 列車と衝突し逃走",
+      "link": "https://news.yahoo.co.jp/pickup/6602273?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-11-11"
-    },
-    {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6602126?source=rss",
-      "category": "current",
-      "title": "前澤友作氏なぜ敗訴 詐欺広告裁判",
-      "link": "https://news.yahoo.co.jp/pickup/6602126?source=rss",
-      "source": "Yahoo!ニュース",
-      "date": "2026-11-11"
+      "date": "2026-11-12"
     }
   ]
 }

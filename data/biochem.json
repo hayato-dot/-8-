@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "id": "riken-https://www.riken.jp/press/2026/20261114_1/index.html",
+      "category": "biochem",
+      "title": "脳オルガノイドを用いた遺伝性てんかんの病態解明",
+      "link": "https://www.riken.jp/press/2026/20261114_1/index.html",
+      "source": "理化学研究所",
+      "date": "2026-11-14"
+    },
+    {
       "id": "riken-https://www.riken.jp/press/2026/20261106_3/index.html",
       "category": "biochem",
       "title": "機械学習で酵素の強さと能力の高さを両立化",
@@ -23,14 +31,6 @@
       "link": "https://www.riken.jp/press/2026/20261102_1/index.html",
       "source": "理化学研究所",
       "date": "2026-11-02"
-    },
-    {
-      "id": "riken-https://www.riken.jp/press/2026/20261029_2/index.html",
-      "category": "biochem",
-      "title": "植物ホルモンが「働く場所」を操る",
-      "link": "https://www.riken.jp/press/2026/20261029_2/index.html",
-      "source": "理化学研究所",
-      "date": "2026-10-29"
     }
   ]
 }

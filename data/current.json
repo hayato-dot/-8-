@@ -1,36 +1,36 @@
 {
   "articles": [
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6603009?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6603126?source=rss",
       "category": "current",
-      "title": "装備移転三原則「非核」の削除案",
-      "link": "https://news.yahoo.co.jp/pickup/6603009?source=rss",
+      "title": "北朝鮮非難の国連決議 米国が棄権",
+      "link": "https://news.yahoo.co.jp/pickup/6603126?source=rss",
+      "source": "Yahoo!ニュース",
+      "date": "2026-11-19"
+    },
+    {
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6603104?source=rss",
+      "category": "current",
+      "title": "米史上初 黒人の下院議長誕生へ",
+      "link": "https://news.yahoo.co.jp/pickup/6603104?source=rss",
       "source": "Yahoo!ニュース",
       "date": "2026-11-18"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6602999?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6603130?source=rss",
       "category": "current",
-      "title": "経済損失1.2兆円 男性更年期対策",
-      "link": "https://news.yahoo.co.jp/pickup/6602999?source=rss",
+      "title": "市民デモ相次ぐ仏 警官が抗議デモ",
+      "link": "https://news.yahoo.co.jp/pickup/6603130?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-11-18"
+      "date": "2026-11-19"
     },
     {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6603010?source=rss",
+      "id": "nhk-https://news.yahoo.co.jp/pickup/6603128?source=rss",
       "category": "current",
-      "title": "東京・新橋の駅前ビルから出火",
-      "link": "https://news.yahoo.co.jp/pickup/6603010?source=rss",
+      "title": "熊本で震度5弱 住民「夜は怖い」",
+      "link": "https://news.yahoo.co.jp/pickup/6603128?source=rss",
       "source": "Yahoo!ニュース",
-      "date": "2026-11-18"
-    },
-    {
-      "id": "nhk-https://news.yahoo.co.jp/pickup/6602976?source=rss",
-      "category": "current",
-      "title": "NHK 職員に「飲み会22時頃まで」",
-      "link": "https://news.yahoo.co.jp/pickup/6602976?source=rss",
-      "source": "Yahoo!ニュース",
-      "date": "2026-11-17"
+      "date": "2026-11-19"
     }
   ]
 }

@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "id": "riken-https://www.riken.jp/press/2026/20261119_1/index.html",
+      "category": "biochem",
+      "title": "狙ったタンパク質の上でだけスイッチオンする光触媒",
+      "link": "https://www.riken.jp/press/2026/20261119_1/index.html",
+      "source": "理化学研究所",
+      "date": "2026-11-19"
+    },
+    {
       "id": "riken-https://www.riken.jp/press/2026/20261114_1/index.html",
       "category": "biochem",
       "title": "脳オルガノイドを用いた遺伝性てんかんの病態解明",
@@ -23,14 +31,6 @@
       "link": "https://www.riken.jp/press/2026/20261106_1/index.html",
       "source": "理化学研究所",
       "date": "2026-11-06"
-    },
-    {
-      "id": "riken-https://www.riken.jp/press/2026/20261102_1/index.html",
-      "category": "biochem",
-      "title": "生きた細胞内の成分を三次元動画で捉える顕微鏡を開発",
-      "link": "https://www.riken.jp/press/2026/20261102_1/index.html",
-      "source": "理化学研究所",
-      "date": "2026-11-02"
     }
   ]
 }

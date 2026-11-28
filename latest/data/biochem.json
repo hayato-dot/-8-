@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "id": "riken-https://www.riken.jp/press/2026/20261127_1/index.html",
+      "category": "biochem",
+      "title": "エタノール処理で植物が塩害に強くなる仕組みを解明",
+      "link": "https://www.riken.jp/press/2026/20261127_1/index.html",
+      "source": "理化学研究所",
+      "date": "2026-11-27"
+    },
+    {
       "id": "riken-https://www.riken.jp/press/2026/20261126_2/index.html",
       "category": "biochem",
       "title": "生きた細胞内でタンパク質の液滴形成から成熟までを捉える",
@@ -23,14 +31,6 @@
       "link": "https://www.riken.jp/press/2026/20261114_1/index.html",
       "source": "理化学研究所",
       "date": "2026-11-14"
-    },
-    {
-      "id": "riken-https://www.riken.jp/press/2026/20261106_3/index.html",
-      "category": "biochem",
-      "title": "機械学習で酵素の強さと能力の高さを両立化",
-      "link": "https://www.riken.jp/press/2026/20261106_3/index.html",
-      "source": "理化学研究所",
-      "date": "2026-11-06"
     }
   ]
 }
